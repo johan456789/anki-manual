@@ -211,7 +211,7 @@ the other hand, when you study a learning card, any new/review siblings
 will be buried.
 
 Also note that a card cannot be buried and suspended at the same time. Suspending a
-buried card will unbury it. Suspended cards will not be buried.
+buried card will unbury it. Suspended cards can't be buried.
 
 ## Keyboard Shortcuts
 
