@@ -106,7 +106,8 @@ bottom of the window.
 ### Future Due
 This graph shows an estimated number of reviews that will be due on a
 given day in the future if you learn no new cards and fail no cards. The
-bars and the left axis show the number of cards due on each day, assuming you study all cards daily. The gray shaded region and the right axis show
+bars and the left axis show the number of cards due on each day if you
+study all cards each day, while the gray shaded region and the right axis show
 the number of cards due on that day if you don’t study at all until then.
 Note that the forecast graph does not count reviews that are currently
 overdue, so if you have a large backlog, the overdue cards will not be
