@@ -122,7 +122,7 @@ and the add notes dialog, you can use the reposition button, which asks
 for the numerical position you want the field to have. So if you want to
 change a field to be the new first field, enter "1".
 
-Alternatively you can also drag and drop the field names to re-order them. To do
+Alternatively you can also drag and drop the field names to reorder them. To do
 that, use your mouse or finger to drag the field to the desired position. An indicator will
 show you where the field will be moved to.
 
@@ -211,7 +211,7 @@ thinking in advance about how you want to use them will help you decide
 what will work best for you.
 
 Some people prefer using decks and subdecks to keep their cards organized,
-but using tags have a big advantage over decks for that: you can add several
+but using tags offer a big advantage over decks for that: you can add several
 tags to a single note, but a single card can only belong to one deck, which
 makes tags a more powerful and flexible categorization system than
 decks in most cases. You can also organize tags in trees [in the same way as you can do for decks](getting-started.md#decks).
@@ -286,9 +286,9 @@ On the right are buttons that control formatting. Bold, italic and
 underline work like they do in a word processing program. The next two
 buttons allow you to subscript or superscript text, which is useful for
 chemical compounds like H<sub>2</sub>O or simple mathematical equations like
-x<sup>2</sup>. Then, there are two buttons to allow you to change text colour.
+x<sup>2</sup>. Then, there are two buttons to allow you to change text color.
 
-The rubber eraser button clears any formatting in the currently selected text — including the colour
+The rubber eraser button clears any formatting in the currently selected text — including the color
 of the text, whether the selected text is bold, etc. The next three buttons allow creating lists, text alignment and text indent.
 
 You can use the paper-clip button to select audio, images, and videos from
@@ -352,7 +352,7 @@ Anki will replace the text with:
 
     Canberra was founded in {{c1::1913}}.
 
-The "c1" part means that you have created one cloze deletion on the
+The "c1" part means that you have created one cloze deletion in the
 sentence. You can create more than one deletion if you'd like. For
 example, if you select Canberra and click \[…​\] again, the text will
 now look like:
@@ -484,7 +484,7 @@ You can edit your IO notes by clicking on "Edit" while reviewing,
 or directly from the browser. There are several tools that you
 can use. Of note:
 
-- Select: It allows you selecting one or more shapes to move,
+- Select: It allows you to select one or more shapes to move,
   resize, delete or group them.
 - Zoom: You can freely move the image and zoom in or out using the mouse wheel.
 - Shapes (Rectangle, Ellipse or Polygon): Use them to add new shapes / cards.
@@ -505,7 +505,7 @@ can use. Of note:
 - Alignment: This tool can be used to align your shapes / text areas as desired.
 
 While reviewing IO Cards a "Toggle Masks" button will appear just below the image.
-This button will temporary clear all shapes of the note when using "Hide All, Guess One" mode.
+This button will temporarily clear all shapes of the note when using "Hide All, Guess One" mode.
 
 ## Inputting Non-Latin Characters and Accents
 

@@ -47,7 +47,7 @@ sections for more information:
 
 ### Customize MathJax
 
-Anki's bundled MathJax support is loaded before card content, so if you wish to customise MathJax you'll have to do so in a specific way. An example is provided here.
+Anki's bundled MathJax support is loaded before card content, so if you wish to customize MathJax you'll have to do so in a specific way. An example is provided here.
 
 ```javascript
 <script>

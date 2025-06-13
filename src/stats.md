@@ -106,8 +106,7 @@ bottom of the window.
 ### Future Due
 This graph shows an estimated number of reviews that will be due on a
 given day in the future if you learn no new cards and fail no cards. The
-bars and the left axis show the number of cards due on each day if you
-study all cards each day, while the gray shaded region and the right axis show
+bars and the left axis show the number of cards due on each day, assuming you study all cards daily. The gray shaded region and the right axis show
 the number of cards due on that day if you don’t study at all until then.
 Note that the forecast graph does not count reviews that are currently
 overdue, so if you have a large backlog, the overdue cards will not be
@@ -142,7 +141,7 @@ you’ve selected at the bottom of the screen. The differently colored
 blocks show how many of the cards you answered on each day were
 [mature](getting-started.md#card-states), young, relearning, or learning cards.
 There is also a separate group for cards answered in a filtered/cram
-deck while they were not due. The gray shaded region and the right axis shows
+deck while they were not due. The gray shaded region and the right axis show
 the cumulative total for each type of review as time progresses across the
 graph (so at 0 days, it would display the number for the entire time
 period displayed on the graph).
@@ -190,9 +189,9 @@ reviewed at least once.
 ### Hourly Breakdown
 This graph shows the percentage of total reviews you have passed during given
 hours.
-1. x-axis (bottom): Time of day (at given hour).
-2. y-axis (right): Amount of cards studied.
-3. secondary y-axis (left): Success rate in percent.
+- x-axis (bottom): Time of day (at given hour).
+- y-axis (right): Amount of cards studied.
+- secondary y-axis (left): Success rate in percent.
 
 The blue bars thus show you the number of reviews you’ve made at that hour (so
 that you know how significant the results are). The gray shaded region shows
