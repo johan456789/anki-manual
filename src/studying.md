@@ -243,4 +243,4 @@ cards, their reviews won’t appear until you’ve gotten through your
 backlog.
 
 When you answer cards that have been waiting for a while, Anki factors
-in that delay when determining the next time a card should be shown. This means if you are returning to Anki after a long break, you don't have to start fresh and can just start back from where you left.
+in that delay when determining the next time a card should be shown. This means if you are returning to Anki after a long break, you don't have to start anew and can just start back from where you left.
