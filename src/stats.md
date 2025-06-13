@@ -190,9 +190,9 @@ reviewed at least once.
 ### Hourly Breakdown
 This graph shows the percentage of total reviews you have passed during given
 hours.
-- x-axis (bottom): Time of day (at given hour).
-- y-axis (right): Amount of cards studied.
-- secondary y-axis (left): Success rate in percent.
+1. x-axis (bottom): Time of day (at given hour).
+2. y-axis (right): Amount of cards studied.
+3. secondary y-axis (left): Success rate in percent.
 
 The blue bars thus show you the number of reviews you’ve made at that hour (so
 that you know how significant the results are). The gray shaded region shows
