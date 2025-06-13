@@ -5,13 +5,13 @@
 ## Sharing Decks Publicly
 
 To share decks with the general public, [synchronize](syncing.md) them
-with AnkiWeb, then log into AnkiWeb and click on "Share" from the menu
+with AnkiWeb, then log into AnkiWeb and click on **"Share"** from the **menu**
 next to the deck you wish to share.
 
 If you shared a deck previously (including with previous versions of
-Anki), you can update it by clicking "Share" as above. Updating a shared
+Anki), you can update it by clicking **"Share"** as above. Updating a shared
 deck will not reset the download counts or ratings. You can delete a
-shared deck that you have uploaded using the Delete button on the shared
+shared deck that you have uploaded using the **Delete button** on the shared
 deck's page.
 
 When updating a deck, AnkiWeb expects the deck to be at the same
@@ -19,8 +19,8 @@ location as before. If you shared a deck when it was called "Korean
 Verbs" for example, and then renamed it to "Korean::Korean Verbs",
 resharing will not be able to update the existing copy. If you have
 forgotten the original name, you can guess it by downloading the
-deck on AnkiWeb and importing it (File > Import) in a new profile
-(File > Switch profile > Add). Then you can copy the exact name of the
+deck on AnkiWeb and importing it (**File** > **Import**) in a new profile
+(**File** > **Switch Profile** > **Add**). Then you can copy the exact name of the
 deck when it was first shared. If this doesn't work, please contact
 support.
 
@@ -36,7 +36,7 @@ If you’d like to share decks with a limited group of people (such as a
 study group or class) rather than the general public, you can do so by
 sharing them outside of AnkiWeb.
 
-To share a deck privately, go to the File menu and choose Export. Select
+To share a deck privately, go to the **File menu** and choose **Export**. Select
 a single deck (not "All Decks"), and turn off "include scheduling
 information". This will produce an .apkg file which you can share with
 others.

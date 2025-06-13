@@ -10,24 +10,23 @@ to start studying.
 Study in Anki is limited to the currently selected deck as well as any
 subdecks it contains.
 
-On the decks screen, your decks and subdecks will be displayed in a list. [New, Learn, and Due (To Review)](getting-started.md#card-states)
+On the **decks screen**, your decks and subdecks will be displayed in a list. [New, Learn, and Due (To Review)](getting-started.md#card-states)
 cards for that day will be also displayed here.
 
 ![Decks screen](media/decks_screen.png)
 
 When you click on a deck, it will become the "current deck", and Anki
-will change to the study screen. You can return to the deck list at any time by clicking on “Decks” at
-the top of the main window. (You can also use the Study
-Deck action in the menu to select a new deck from the keyboard, or you
+will change to the **study screen**. You can return to the **deck list** at any time by clicking on **“Decks”** at
+the top of the main window. (You can also use the **Study Deck** action in the menu to select a new deck from the keyboard, or you
 can press the <kbd>s</kbd> key to study the currently selected deck.)
 
-You can click the gears button to the right of a deck to rename or
+You can click the **gears** button to the right of a deck to rename or
 delete the deck, change its [options](deck-options.md), or [export](exporting.md) it.
 
 ## Study Overview
 
 After clicking on a deck to study, you’ll see a screen that shows you
-how many cards are due today. This is called the "deck overview" screen:
+how many cards are due today. This is called the **"deck overview" screen**:
 
 ![Study overview](media/study_overview.png)
 
@@ -91,38 +90,37 @@ is not possible to turn this feature off.
 ## Editing and More
 
 You can click the **Edit** button in the bottom left to edit the current
-note. When you finish editing, you’ll be returned to study. The editing
-screen works very similarly to the [add notes](editing.md) screen.
+note. When you finish editing, you’ll be returned to study. The **editing screen** works very similarly to the **[add notes](editing.md) screen**.
 
-At the bottom right of the study screen is a button labeled **More**.
+At the bottom right of the **study screen** is a button labeled **More**.
 This button provides some other operations you can do on the current
 card or note:
 
-- [**Flag Card**](editing.md#using-flags): Adds a colored marker to the card, or toggles it off. Flags will appear during
-  study, and you can search for flagged cards in the Browse screen. This is useful
+- **Flag Card**: Adds a colored marker to the card, or toggles it off. Flags will appear during
+  study, and you can search for flagged cards in the **Browse screen**. This is useful
   when you want to take some action on the card at a later date, such as looking
   up a word when you get home. If you're using Anki 2.1.45+, you can also rename flags
-  from the [browser](browsing.md).
+  from the **[browser](browsing.md)**.
 
 - **Bury Card / Note**: Hides a card or all of the note’s cards from review until the next day.
-  (If you want to unbury cards before then, you can click the “unbury”
-  button on the [deck overview](studying.md#study-overview) screen.) This is useful if
+  (If you want to unbury cards before then, you can click the **“unbury”**
+  button on the **[deck overview](studying.md#study-overview) screen**.) This is useful if
   you cannot answer the card at the moment or you want to come back to it
   another time. Burying can also [happen automatically](studying.md#siblings-and-burying) for
   cards of the same note.
 
 - **Reset card**: Moves the current card to [the end of the new queue](browsing.md#cards).
 
-  The "Restore original position" option allows you to reset the card back to its original position when you reset it.
+  The **"Restore original position"** option allows you to reset the card back to its original position when you reset it.
 
-  The "Reset repetition and lapse count" option, if enabled, will set the review and failure counters
+  The **"Reset repetition and lapse count"** option, if enabled, will set the review and failure counters
   for the card back to zero. It does not remove the review history that is shown at the bottom of the
-  card info screen.
+  **card info screen**.
 
 - **Set Due Date**: Puts cards in the review queue, and [makes them due on a certain date.](browsing.md#cards)
 
 - **Suspend Card / Note**: Hides a card or all of the note’s cards from review until they are
-  manually unsuspended (by clicking the suspend button in the browser).
+  manually unsuspended (by clicking the **suspend button** in the **browser**).
   This is useful if you want to avoid reviewing the note for some time,
   but don’t want to delete it.
 
@@ -132,13 +130,13 @@ card or note:
 
 - **Previous Card Info**: Displays [statistical information](stats.md#card-info) about the previous card.
 
-- [**Mark Note**](editing.md#the-marked-tag): Adds a “marked” tag to the current note, so it can be easily found in the
-  browser. This is similar to flagging individual cards, but works with a tag
+- **Mark Note**: Adds a “marked” tag to the current note, so it can be easily found in the
+  **browser**. This is similar to flagging individual cards, but works with a tag
   instead, so if the note has multiple cards, all cards will appear in a search
   for the marked tag. Most users will want to use flags instead.
 
 - **Create Copy**: Opens a [duplicate](browsing.md#finding-duplicates) of the current
-  note in the editor, which can be slightly modified to easily obtain variations of your cards.
+  note in the **editor**, which can be slightly modified to easily obtain variations of your cards.
   By default, the duplicate card will be created in the same deck as the original.
 
 - **Delete Note**: Deletes the note and all of its cards.
@@ -152,7 +150,7 @@ card or note:
 - **Record Own Voice**: Record from your microphone for the purposes of checking your
   pronunciation. This recording is temporary and will go away when you
   move to the next card. If you want to add audio to a card permanently,
-  you can do that in the edit window.
+  you can do that in the **edit window**.
 
 - **Replay Own Voice**: Replay the previous recording of your voice (presumably after showing
   the answer).
@@ -185,7 +183,7 @@ Since cards in learning are somewhat time-critical, they are fetched
 from all decks at once and shown in the order they are due.
 
 To control the order cards appear in, see [Display Order](./deck-options.md#display-order). For more fine-grained ordering of new cards, you
-can change the order in the [browser](browsing.md).
+can change the order in the **[browser](browsing.md)**.
 
 ## Siblings and Burying
 
@@ -197,8 +195,8 @@ These related cards are called "siblings".
 When you answer a card that has siblings, Anki can prevent the card’s
 siblings from being shown in the same session by automatically "burying"
 them. Buried cards are hidden from review until the clock rolls over to
-a new day or you manually unbury them using the “Unbury” button that’s
-visible at the bottom of the [deck overview](studying.md#study-overview) screen. Anki
+a new day or you manually unbury them using the **“Unbury” button** that’s
+visible at the bottom of the **[deck overview](studying.md#study-overview) screen**. Anki
 will bury siblings even if the siblings are not in the same deck (for
 instance, if you use the [deck override](templates/intro.md) feature).
 
@@ -226,9 +224,9 @@ You can use the <kbd>1</kbd>-<kbd>4</kbd> keys to select a specific ease button.
 find it convenient to answer most cards with <kbd>Space</kbd> and keep one finger
 on <kbd>1</kbd> for when they forget.
 
-The "Study Deck" item in the Tools menu allows you to quickly switch to
+The **"Study Deck" item** in the **Tools menu** allows you to quickly switch to
 a deck with the keyboard. You can trigger it with the <kbd>/</kbd> key. When
-opened, it will display all of your decks and show a filter area at the
+opened, it will display all of your decks and show a **filter area** at the
 top. As you type characters, Anki will display only decks matching the
 characters you type. You can add a space to separate multiple search
 terms, and Anki will show only decks that match all the terms. So “ja 1”

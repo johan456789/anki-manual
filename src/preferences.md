@@ -40,10 +40,10 @@ Note: If you're on Windows, please check [this page](./platform/windows/display-
 
 These options allow you to remove some unnecessary elements from the screen during reviews. You can:
 
-- Hide the top and bottom bar during reviews.
-- Enable the "minimalist" mode, making the interface more compact/less fancy.
-- Reduce motion, to disable some transitions/animations.
-- Switching between native styling and the Anki theme (only on Mac/Linux).
+- **Hide the top and bottom bar during reviews**.
+- **Enable the "minimalist" mode**, making the interface more compact/less fancy.
+- **Reduce motion**, to disable some transitions/animations.
+- **Switching between native styling and the Anki theme** (only on Mac/Linux).
 
 ## Review
 
@@ -75,7 +75,7 @@ cards you’ve managed to study during the prescribed time limit.
 ### Review
 
 **Show play buttons on cards with audio**\
-Whether a clickable (re)play button will be shown in the study screen
+Whether a clickable (re)play **button** will be shown in the **study screen**
 for cards with audio.
 
 **Interrupt current audio when answering**\
@@ -83,7 +83,7 @@ Whether a currently playing audio file should be stopped when answering
 a card.
 
 **Show remaining card count**\
-Disable this option to hide the card count at the bottom of the screen.
+Disable this option to hide the card count at the bottom of the **screen**.
 
 **Show next review time above answer buttons**\
 Useful to know how far in the future your cards are being pushed.
@@ -106,22 +106,21 @@ By default, formatting like bold and colors are kept when pasting,
 unless the <kbd>Shift</kbd> key is held down. This option reverses the behaviour.
 
 **Default deck**\
-Controls how note types and decks interact. The default of "When adding, default
-to current deck" means that Anki saves the last-used note type for each deck and
+Controls how note types and decks interact. The default of "**When adding, default to current deck**" means that Anki saves the last-used note type for each deck and
 selects it again then next time you choose the deck (and, in addition, will
-start with the current deck selected when choosing Add from anywhere). The other
-option, "Change deck depending on note type," saves the last-used deck for each
-note type (and opens the add window to the last-used note type when you choose
-Add). This may be more convenient if you always use a single note type for each
+start with the current deck selected when choosing **Add** from anywhere). The other
+option, "**Change deck depending on note type**," saves the last-used deck for each
+note type (and opens the **add window** to the last-used note type when you choose
+**Add**). This may be more convenient if you always use a single note type for each
 deck.
 
 The last used deck/note type is updated when you add a card. If you change the deck
-and close the add window without adding a card, it won't be saved.
+and close the **add window** without adding a card, it won't be saved.
 
 ### Browsing
 
 **Default search text**\
-Allows you to customize the starting search text in the browser (eg, to start
+Allows you to customize the starting search text in the **browser** (eg, to start
 with "deck:current").
 
 **Ignore accents in search (slower)**\
@@ -149,7 +148,7 @@ with an older version that is on AnkiWeb.
 
 ### AnkiWeb Account
 
-When logged in, clicking on Log Out will log you out.
+When logged in, clicking on **Log Out** will log you out.
 
 ### Self-hosted Sync Server
 

@@ -7,10 +7,10 @@ that you spend a few weeks with the defaults to get a feel for how Anki works
 before you start adjusting the options. Please make sure you understand the options
 before changing them, as mistakes can reduce Anki's effectiveness.
 
-On your computer, do any of the following to open deck options:
+On your computer, do any of the following to open **deck options**:
 
-- Click the gear icon on the Decks screen.
-- Select a deck on the Decks screen, and then click **Options**
+- Click the **gear icon** on the **Decks screen**.
+- Select a deck on the **Decks screen**, and then click **Options**
   at the bottom of the screen.
 - Click **More > Options** while in review mode.
 - Press <kbd>O</kbd> while in review mode.
@@ -27,7 +27,7 @@ it easier to update options in many decks at once. To do this, options are
 grouped into _presets_. If you change an option in a preset, the change is applied to all decks that use the same preset. All newly created decks use the "Default" preset.
 
 To change the options in one deck but not other decks, click the
-arrow icon in the top right of the Deck Options window. You can do the following:
+**arrow icon** in the top right of the **Deck Options window**. You can do the following:
 
 - **Save**: Save all modifications you've made in deck options.
 - **Add Preset**: Add a new preset for this deck, with the default options.
@@ -189,9 +189,9 @@ from [earlier in this section](deck-options.md#learning-steps).
 
 ### Easy Interval
 
-The number of days to wait before showing a card again, after the Easy button is used on it.
+The number of days to wait before showing a card again, after the **Easy button** is used on it.
 
-The **Easy** button turns learning cards into a review cards regardless of which step you're on,
+The **Easy button** turns learning cards into a review cards regardless of which step you're on,
 and assigns them the delay you have configured in this option. Easy interval should always be at least
 as long as the graduating interval, and typically a few days longer.
 
@@ -315,7 +315,7 @@ Controls how the review cards are sorted. The options are:
   current interval of 5 days that is overdue by 2 days, will display before a card
   with a current interval of 10 days that is overdue by 3 days.
 
-  When FSRS is enabled, this sort order is removed; the FSRS equivalent is **Ascending retrievability**,
+  When FSRS is enabled, this sort order is removed; the FSRS equivalent is **"Ascending retrievability"**,
   which is calculated based on each card's retrievability (probability of recall) and the desired retention in the preset.
 
 ## Burying
@@ -336,7 +336,7 @@ For more info about burying cards, please see [this section](./studying.md#sibli
 ## Audio
 
 - **Don't play audio automatically**: By default, Anki automatically plays any audio you have on
-  cards. If you turn on this option Anki will not play audio until you press the replay audio key, <kbd>R</kbd> or <kbd>F5</kbd>.
+  cards. If you turn on this option Anki will not play audio until you press the **replay audio key**, <kbd>R</kbd> or <kbd>F5</kbd>.
 
 - **Skip question when replaying answer**: Controls whether audio from
   the question side is played when you use replay action on the answer side. Note that, Anki [does not automatically play](./templates/fields.md#special-fields) audio from the `{{FrontSide}}` field. This option does not influence the behaviour of automatic play.
@@ -361,16 +361,16 @@ not influence scheduling.
 
 ### On-screen Timer
 
-- Show on-screen timer: On the Study screen, show a timer that counts the time
+- Show on-screen timer: On the **Study screen**, show a timer that counts the time
   you're taking to study each card. (This timer will stop when it reaches the Maximum answer seconds set for the internal timer.)
-- Stop on-screen timer on answer: Whether the on-screen timer should continue running from when you show
+- Stop on-screen timer on answer: Whether the **on-screen timer** should continue running from when you show
   the answer until you press a button to grade your answer. This option does not impact the time that is recorded for your statistics.
 
 ## Auto Advance
 
 Requires Anki 23.12 or later. Auto Advance allows you to automatically take some actions after a certain amount of time has passed. To use it, you must first set a non-zero
 time in **Seconds to show question for** and/or **Seconds to show answer for**. Then, in the
-study screen, use the Auto Advance action from the **More** button to start advancing.
+**study screen**, use the **Auto Advance action** from the **More** button to start advancing.
 
 ## Easy Days
 
@@ -400,13 +400,13 @@ become available, and SM-2 specific options, such as **Graduating interval**,
 
 ### A Short Guide
 
-- Enable FSRS under the "FSRS" section, at the bottom of the deck options page. FSRS can only be enabled globally; you cannot enable it for some presets and disable it for others.
+- Enable FSRS under the **"FSRS" section**, at the bottom of the **deck options page**. FSRS can only be enabled globally; you cannot enable it for some presets and disable it for others.
 - Ensure that all your learning and re-learning steps are shorter than 1d and can be completed on the same day. 23h is not recommended even though it's less than one day because you won't be able to finish this step on the same day as your first review. Steps such as 10m or 30m are good.
-- Click the "Optimize" button under the "FSRS parameters" field. If you see a message that says "The FSRS parameters currently appear to be optimal", that's fine.
-- Choose a value of desired retention: the proportion of cards recalled successfully when they are due. **This is the most important setting in FSRS. Higher retention leads to shorter intervals and more reviews per day.** The default is 90%, which offers a good balance of retention and workload. Above 90% the workload increases very quickly, and above 97% the workload can be overwhelming. You can use ["Compute minimum recommended retention"](#compute-minimum-recommended-retention) to help you choose the value of desired retention.
+- Click the **"Optimize" button** under the **"FSRS parameters" field**. If you see a message that says "The FSRS parameters currently appear to be optimal", that's fine.
+- Choose a value of desired retention: the proportion of cards recalled successfully when they are due. **This is the most important setting in FSRS. Higher retention leads to shorter intervals and more reviews per day.** The default is 90%, which offers a good balance of retention and workload. Above 90% the workload increases very quickly, and above 97% the workload can be overwhelming. You can use **["Compute minimum recommended retention"](#compute-minimum-recommended-retention)** to help you choose the value of desired retention.
 Parameters and desired retention are preset-specific, you can make multiple presets with different parameters and desired retention.
 
-FSRS can adapt to almost any habit, except for one: pressing "Hard" instead of "Again" when you forget the information. When you press "Hard", FSRS assumes you have recalled the information correctly (though with hesitation and a lot of mental effort). If you press "Hard" when you have failed to recall the information, all intervals will be unreasonably high. So, if you have this habit, please change it and use "Again" when you forget the information.
+FSRS can adapt to almost any habit, except for one: pressing **"Hard"** instead of **"Again"** when you forget the information. When you press **"Hard"**, FSRS assumes you have recalled the information correctly (though with hesitation and a lot of mental effort). If you press **"Hard"** when you have failed to recall the information, all intervals will be unreasonably high. So, if you have this habit, please change it and use **"Again"** when you forget the information.
 
 Regarding add-on compatibility, as a general rule of thumb, if an add-on affects intervals and scheduling in some way, it shouldn't be used with FSRS.
 
@@ -588,7 +588,7 @@ You can thus use the multiplier to to make your reviews less or more frequent.
 For moderately difficult material, the average user should find they
 remember approximately 90% of mature cards when they come up for review. You
 can find out your own performance by opening the graphs/statistics for a
-deck and looking at the Answer Buttons graph - mature retention is the
+deck and looking at the **Answer Buttons graph** - mature retention is the
 correct% on the right side of the graph. If you haven’t been studying for
 long, you may not have any mature cards yet. As performance with new
 cards and younger cards can vary considerably, it’s a good idea to wait
@@ -647,7 +647,7 @@ that preserving part of the delay can actually [be counter-productive](https://s
 
 ### Custom Scheduling
 
-You can have more control over Anki's scheduling of cards by using your own JavaScript in the custom scheduling field. This is a global option, so code entered here applies to every preset.
+You can have more control over Anki's scheduling of cards by using your own JavaScript in the **custom scheduling field**. This is a global option, so code entered here applies to every preset.
 
 Here is an example custom scheduling script. Note that, for Qt5 versions of Anki, the code needs to be transpiled.
 

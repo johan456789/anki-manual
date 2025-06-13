@@ -3,7 +3,7 @@
 If more than one person wants to use Anki on your computer, you can set
 up a separate profile for each user. Each user profile has their own
 collection, and own program settings. Add-ons are shared across profiles.
-Profiles are configured by going to the File menu and choosing "Switch Profile".
+Profiles are configured by going to the **File menu** and choosing "**Switch Profile**".
 
 **Only a single profile can be synced to an AnkiWeb account.**
 If you have different users on your computer, each user will
@@ -22,10 +22,10 @@ AnkiDroid does not support profiles.
 
 ## Profiles window
 
-From the Profiles window (accessible via File>Switch Profile from the main window), you can:
+From the **Profiles window** (accessible via **File** > **Switch Profile** from the main window), you can:
 
-- Open / Add / Rename / Delete user profiles.
-- Quit the program.
+- **Open** / **Add** / **Rename** / **Delete** user profiles.
+- **Quit** the program.
 - Restore an [automatic backup.](./backups.md)
 - Downgrade your collection, which is necessary if you want to open it with
   an earlier Anki release. If you skip this step, you may get an error message

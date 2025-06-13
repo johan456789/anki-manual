@@ -8,7 +8,7 @@ If you receive "access denied" messages, some of Anki's files may be set to read
 
 To fix the problem, you can do the following:
 
-- in the search area of the start bar, type cmd.exe and hit enter
+- in the **search area** of the **start bar**, type cmd.exe and hit enter
 - in the window that opens, type the following and hit enter to see your username:
 
 whoami

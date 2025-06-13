@@ -9,7 +9,7 @@ The video shows Anki 2.0’s interface, but the concepts are largely the
 same.
 
 The styling section of the Cards screen can be accessed by clicking the
-"Styling" button next to the "Back Template" button. In that section,
+**"Styling" button** next to the **"Back Template" button**. In that section,
 you can change the background color of the card, the default font, the
 text alignment, and so on.
 
@@ -97,7 +97,7 @@ You can explore the styling of cards interactively by using Chrome:
 
 <https://addon-docs.ankiweb.net/porting2.0.html#webview-changes>
 
-Anki 2.1.50+ supports image resizing within the editor natively.
+Anki 2.1.50+ supports image resizing within the **editor** natively.
 
 ## Field Styling
 
@@ -191,7 +191,7 @@ When audio or text to speech is included on your cards, Anki will show
 buttons you can click on to replay the audio.
 
 If you prefer not to see the buttons, you can hide them in the
-preferences screen.
+**preferences screen**.
 
 You can customize their appearance in your card styling, for example, to
 make them smaller and colored, you could use the following:
@@ -226,7 +226,7 @@ of only certain fields by wrapping their references in some HTML:
 
     <div dir="rtl">{{Front}}</div>
 
-To change the direction of fields in the editor, please see
+To change the direction of fields in the **editor**, please see
 the [editing](../editing.md#customizing-fields) section.
 
 ## Other HTML
@@ -245,12 +245,12 @@ web if you’d like to learn more.
 ## Browser Appearance
 
 If your card templates are complex, it may be difficult to read the
-question and answer columns (called "Front" and "Back") in the [card list](../browsing.md#cardnote-table). The "browser appearance" option allows you to define a
-custom template to be used only in the browser, so you can include only
+**Question** and **Answer columns** (called "Front" and "Back") in the **[card list](../browsing.md#cardnote-table)**. The **"browser appearance" option** allows you to define a
+custom template to be used only in the **browser**, so you can include only
 the important fields and change the order if you desire. The syntax is
 the same as in standard card templates.
 
-When using this option, if the text in the question column is repeated at the beginning of the answer column, Anki will display the text only in the question column. For example, if the question column text is "People in Ladakh speak", and the answer is "People in Ladakh speak Ladakhi", the answer column will only display "Ladakhi", omitting the rest.
+When using this option, if the text in the **Question column** is repeated at the beginning of the **Answer column**, Anki will display the text only in the **Question column**. For example, if the **Question column** text is "People in Ladakh speak", and the answer is "People in Ladakh speak Ladakhi", the **Answer column** will only display "Ladakhi", omitting the rest.
 
 ## Platform-Specific CSS
 
@@ -331,12 +331,12 @@ it to the media folder.
 After the font has been added to the media folder, you need to update the
 template.
 
-1. Click **Add** at the top of the main screen, and then select the
-   note type you want to change with the top left button.
+1. Click the **Add button** at the top of the **main screen**, and then select the
+   note type you want to change with the **top left button**.
 
-2. Click **Cards**.
+2. Click the **Cards button**.
 
-3. In the styling section, add the following text to the bottom (after
+3. In the **styling section**, add the following text to the bottom (after
    the last "}" character), replacing "\_arial.ttf" with the name of
    the file you copied into your media folder:
 
@@ -362,7 +362,7 @@ work.
 ## Night Mode
 
 You can customize the way templates appear when night mode is enabled in
-the preferences screen.
+the **preferences screen**.
 
 If you wanted a lighter grey background, you could use
 something like:

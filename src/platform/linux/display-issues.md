@@ -4,9 +4,9 @@ Hardware acceleration defaults to on. If you experience blank screens
 or display issues, you can try enabling software rendering.
 
 ### Changing the Driver From the Preferences Screen
-In Anki 23.10+, you can change the graphics driver from preferences screen by
+In Anki 23.10+, you can change the graphics driver from **preferences screen** by
 navigating to **Tools → Preferences** and then selecting the driver from the
-dropdown menu.
+**dropdown menu**.
 
 ### Changing the Driver From the Terminal
 ```

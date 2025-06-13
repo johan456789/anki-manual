@@ -23,7 +23,7 @@ If the problem goes away, that indicates an add-on is causing the problem.
 Remove any add-ons you don't need, and disable half of the others. If the
 problem continues, try the other half. Repeat the process until you've figured
 out which add-on is causing the problem. Then please report the issue to the
-add-on author, using the Copy Debug Info button, and pasting that into the
+add-on author, using the **Copy Debug Info button**, and pasting that into the
 report.
 
 ### 3. Check your Anki version
@@ -39,7 +39,7 @@ versions](platform/linux/distro-packages.md).
 
 ### 4. Check your database
 
-After restarting Anki, please try the **Tools → Check Database** menu item to
+After restarting Anki, please try the **Tools → Check Database menu item** to
 make sure your collection doesn't have any problems.
 
 ### 5. Restart your computer
@@ -54,7 +54,7 @@ restart Anki after each change.
 
 If you're using Anki version 23.10 or above, the easiest way is to open
 **Tools → Preferences** (or **Anki → Preferences** if you're on a Mac) and
-change the driver from the dropdown menu.
+change the driver from the **dropdown menu**.
 
 If you are on an older Anki version or if you cannot access the preferences for
 some reason, you can use the command-line instructions instead and manually
@@ -66,7 +66,7 @@ change the gldriver file:
 
 ### 7. Reset window sizes
 
-Sometimes pressing **reset window sizes** button in the preferences screen
+Sometimes pressing the **"reset window sizes" button** in the **preferences screen**
 immediately after starting Anki will help.
 
 ### 8. If the problem remains
