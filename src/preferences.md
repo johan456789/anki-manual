@@ -103,7 +103,7 @@ file sizes.
 
 **Paste without Shift strips formatting**\
 By default, formatting like bold and colors are kept when pasting,
-unless the <kbd>Shift</kbd> key is held down. This option reverses the behavior.
+unless the <kbd>Shift</kbd> key is held down. This option reverses the behaviour.
 
 **Default deck**\
 Controls how note types and decks interact. The default of "When adding, default
