@@ -23,7 +23,7 @@ Below the note type, you'll see some buttons, and an area labelled
 "Front" and "Back". Front and Back are called [fields](getting-started.md#notes--fields), and you can add,
 remove, and rename them by clicking the "Fields…​" button above.
 
-Below the fields is another area labelled "**tags**". Tags are labels that
+Below the fields is another area labelled "_tags_". Tags are labels that
 you can attach to your notes, to make organizing and finding notes
 easier. You can leave the tags blank if you wish, or add one or more of
 them. Tags are separated by a space. If the tags area says

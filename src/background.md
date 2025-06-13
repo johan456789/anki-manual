@@ -24,8 +24,8 @@ example:
 
 - Even practising guitar chords!
 
-There are two simple concepts behind Anki: **active recall testing** and
-**spaced repetition**. They are not known to most learners, despite being well-documented in scientific literature.
+There are two simple concepts behind Anki: _active recall testing_ and
+_spaced repetition_. They are not known to most learners, despite being well-documented in scientific literature.
 Understanding how these concepts work will make you a more effective learner.
 
 ## Active Recall Testing

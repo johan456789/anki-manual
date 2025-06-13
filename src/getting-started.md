@@ -55,16 +55,16 @@ remembered the answer, and Anki will choose when to show you the card again. For
 
 <div id="types-of-cards" />
 
-- **New:** Cards that you have downloaded or created yourself, but have never studied before.
+- _New:_ Cards that you have downloaded or created yourself, but have never studied before.
 
-- **Learning:** Cards that were seen for the first time recently, and are still being learned.
+- _Learning:_ Cards that were seen for the first time recently, and are still being learned.
 
-- **Review:** Cards that you have finished learning. These cards will be shown again after their delay (interval) has elapsed.
+- _Review:_ Cards that you have finished learning. These cards will be shown again after their delay (interval) has elapsed.
   There are two types of review cards:
-  - **Young:** A young card is one that has an interval of less than 21 days.
-  - **Mature:** A mature card is one that has an interval of 21 days or greater.
+  - _Young:_ A young card is one that has an interval of less than 21 days.
+  - _Mature:_ A mature card is one that has an interval of 21 days or greater.
 
-- **Relearn:** Cards that you forgot in the review stage. These cards are returned to the relearning state to be learned again.
+- _Relearn:_ Cards that you forgot in the review stage. These cards are returned to the relearning state to be learned again.
 
 ### Decks
 
@@ -215,30 +215,30 @@ note types included. These note types are provided to make Anki easier for
 new users, but in the long run it's recommended you create your own note
 types specifically for the content you are learning. The standard note types are:
 
-- **Basic**\
+- _Basic_\
   Has "Front" and "Back" fields, and will create one card. Text you enter in
   "Front" will appear on the front of the card, and text you enter in "Back"
   will appear on the back of the card.
 
-- **Basic (and reversed card)**\
+- _Basic (and reversed card)_\
   Like "Basic", but creates two cards for the text you enter:
   front→back and back→front.
 
-- **Basic (optional reversed card)**\
+- _Basic (optional reversed card)_\
   Like "Basic", but has a third field called "Add Reverse". If you enter any text into
   that field, a reversed card (back→front) will also be created. For details, see the [Cards and Templates](templates/intro.md) section.
 
-- **Basic (type in the answer)**\
+- _Basic (type in the answer)_\
   This is essentially "Basic", with an extra text box on the front where you
   can type your answer in. When you reveal the back, Anki will show you any differences between your input and the actual answer. For details, see the
   [Checking Your Answer](templates/fields.md#checking-your-answer) section.
 
-- **Cloze**\
+- _Cloze_\
   A note type that allows you to select text and turn it into a cloze
   deletion (e.g. "Humans landed on the moon in \[…​\]" → "Humans landed on the
   moon in 1969"). For details, see the [cloze deletion](editing.md#cloze-deletion) section.
 
-- **Image Occlusion**\
+- _Image Occlusion_\
   Like the cloze note type, but it works with images instead of text,
   which is especially useful when studying material that heavily relies on images,
   such as anatomy and geography. For details, please see the [Image Occlusion](editing.md#image-occlusion)
