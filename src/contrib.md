@@ -15,8 +15,8 @@ shared deck that you have uploaded using the Delete button on the shared
 deck's page.
 
 When updating a deck, AnkiWeb expects the deck to be at the same
-location as before. If you shared a deck when it was called "Korean
-Verbs" for example, and then renamed it to "Korean::Korean Verbs",
+location as before. If you shared a deck when it was called "`Korean
+Verbs`" for example, and then renamed it to "`Korean::Korean Verbs`",
 resharing will not be able to update the existing copy. If you have
 forgotten the original name, you can guess it by downloading the
 deck on AnkiWeb and importing it (File > Import) in a new profile
@@ -38,22 +38,22 @@ sharing them outside of AnkiWeb.
 
 To share a deck privately, go to the File menu and choose Export. Select
 a single deck (not "All Decks"), and turn off "include scheduling
-information". This will produce an .apkg file which you can share with
+information". This will produce an `.apkg` file which you can share with
 others.
 
-You can share the .apkg file by emailing it to people, placing it on a
+You can share the `.apkg` file by emailing it to people, placing it on a
 website or shared folder, or using a free file sharing service like
 Dropbox or Google Drive and sending people a link.
 
 Both the computer version and mobile clients make it easy to import from
-an apkg file simply by clicking or tapping on it. AnkiWeb does not have
+an `.apkg` file simply by clicking or tapping on it. AnkiWeb does not have
 the ability to import apkg files however, so the recipients of your deck
 will need to have the computer version or Anki on their mobile device.
 
-When a user imports an .apkg file, cards that already exist in their
+When a user imports an `.apkg` file, cards that already exist in their
 collection will be ignored and any new cards will be added. As long as
 they use the same note type, modified cards will also be updated. To
-prevent data loss, cards that have been deleted in the new apkg file
+prevent data loss, cards that have been deleted in the new `.apkg` file
 will not be deleted in the user’s collection, so if you need to delete
 cards from users' decks for whatever reason, you will need to contact
 them about it.

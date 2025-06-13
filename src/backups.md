@@ -37,7 +37,7 @@ Certain operations will trigger a backup, even if the configured time has not
 elapsed yet:
 
 - A one-way sync download
-- Importing a .colpkg file using File>Import
+- Importing a `.colpkg` file using File>Import
 - Tools>Check Database
 
 After backups are two days old, Anki will start removing some of the older ones.
@@ -59,10 +59,10 @@ functions like regular automatic backups, and does not include media files.
 To create a backup that includes your sounds and images:
 
 - Select Export from the File menu.
-- Ensure "Anki collection package (.colpkg)" is selected.
+- Ensure "Anki collection package (`.colpkg`)" is selected.
 - Enable the "include media" option.
 
-This will create a .colpkg file that contains all of your cards and any sounds/images they
+This will create a `.colpkg` file that contains all of your cards and any sounds/images they
 use. We recommend you store the file somewhere safe, like a different device, or a cloud-based
 file storage service like Dropbox or Google Drive.
 
@@ -75,7 +75,7 @@ you can force a one-way sync in the preferences screen, or sync from a new devic
 
 ## Deletion log
 
-Anki logs deleted notes to a text file called deleted.txt in your
+Anki logs deleted notes to a text file called `deleted.txt` in your
 profile folder. These notes are in a text format that can be read by
 File&gt;Import, though please note the import feature only supports a
 single note type at one time, so if you have deleted notes from

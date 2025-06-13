@@ -548,7 +548,7 @@ The maximum number of days a review card will wait before it's shown again. When
 
 This setting is hidden unless FSRS is turned on.
 
-When some of your review history is missing, FSRS needs to fill in the gaps. By default, it will assume that when you did those old reviews, you remembered 90% of the material. If your old retention was appreciably higher or lower than 90%, adjusting this option will allow FSRS to better approximate the missing reviews.
+When some of your review history is missing, FSRS needs to fill in the gaps. By default, it will assume that when you did those old reviews, you remembered `90%` of the material. If your old retention was appreciably higher or lower than `90%`, adjusting this option will allow FSRS to better approximate the missing reviews.
 
 Your review history may be incomplete for two reasons:
 

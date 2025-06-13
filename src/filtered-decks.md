@@ -22,9 +22,9 @@ The easiest way to create a filtered deck is with the Custom Study
 button, which appears at the bottom of the screen when you click on a
 deck. It offers some convenient preset filters for common tasks like reviewing
 the cards that you have failed that day. It will create a filtered deck called
-"Custom Study Session" and automatically open it for you.
+"`Custom Study Session`" and automatically open it for you.
 
-If an existing "Custom Study Session" deck exists, it will be emptied
+If an existing "`Custom Study Session`" deck exists, it will be emptied
 before a new one is created. If you wish to keep a custom study deck,
 you can rename it from the deck list.
 
@@ -232,9 +232,9 @@ decks to catch up as follows:
     I did this for a backlog of 800 cards with filtered subdecks. Worked
     very well for me.
 
-    Just Due filter with: "is:due prop:due>-7"
+    Just Due filter with: `"is:due prop:due>-7"`
 
-    Over Due filter with: "is:due prop:due<=-7"
+    Over Due filter with: `"is:due prop:due<=-7"`
 
     The Just Due deck will then contain cards that became due in the past
     week. That's the deck you should study every day as it gets the cards

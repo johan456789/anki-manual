@@ -28,7 +28,7 @@ you can attach to your notes, to make organizing and finding notes
 easier. You can leave the tags blank if you wish, or add one or more of
 them. Tags are separated by a space. If the tags area says
 
-    vocab check_with_tutor
+    `vocab check_with_tutor`
 
 …​then the note you add would have two tags.
 
@@ -45,7 +45,7 @@ fields, please see the [editor](editing.md) section.
 ### Duplicate Check
 
 Anki checks the first field for uniqueness, so it will warn you if you
-enter two cards with a Front field of "apple" (for example). The
+enter two cards with a Front field of `"apple"` (for example). The
 uniqueness check is limited to the current note type, so if you're
 studying multiple languages, two cards with the same Front would not be
 listed as duplicates as long as you had a different note type for each
@@ -126,7 +126,7 @@ Alternatively you can also drag and drop the field names to re-order them. To do
 that, use your mouse or finger to drag the field to the desired position. An indicator will
 show you where the field will be moved to.
 
-Do not use "Tags", "Type", "Deck", "Card", or "FrontSide" as field
+Do not use `"Tags"`, `"Type"`, `"Deck"`, `"Card"`, or `"FrontSide"` as field
 names, as they are [special fields](templates/fields.md#special-fields) and will not work
 properly.
 
@@ -255,9 +255,9 @@ versions; most users will want to use [flags](editing.md#using-flags) instead.
 ### Using Fields
 
 For those who like to stay very organized, you can add fields to your
-notes to classify your content, such as "book", "page", and so on. Anki
+notes to classify your content, such as `"book"`, `"page"`, and so on. Anki
 supports searching in specific fields, which means you can do a search
-for `"book:my book" page:63` and immediately find what you're looking
+for `"`book:my book` page:63"` and immediately find what you're looking
 for.
 
 ### Custom Study and Filtered Decks
@@ -331,12 +331,12 @@ key strips formatting" to modify the default behaviour.
 _Cloze deletion_ is the process of hiding one or more words in a
 sentence. For example, if you have the sentence:
 
-    Canberra was founded in 1913.
+    `Canberra was founded in 1913.`
 
-…​and you create a cloze deletion on "1913", then the sentence would
+…​and you create a cloze deletion on `"1913"`, then the sentence would
 become:
 
-    Canberra was founded in [...].
+    `Canberra was founded in [...].`
 
 Sometimes sections that have been removed in this fashion are said to be
 "occluded".
@@ -350,24 +350,24 @@ type, and type some text into the "Text" field. Then drag the mouse over
 the text you want to hide to select it, and click the \[…​\] button.
 Anki will replace the text with:
 
-    Canberra was founded in {{c1::1913}}.
+    `Canberra was founded in {{c1::1913}}.`
 
 The "c1" part means that you have created one cloze deletion on the
 sentence. You can create more than one deletion if you'd like. For
 example, if you select Canberra and click \[…​\] again, the text will
 now look like:
 
-    {{c2::Canberra}} was founded in {{c1::1913}}.
+    `{{c2::Canberra}} was founded in {{c1::1913}}.`
 
 When you add the above note, Anki will create two cards. The first card
 will show:
 
-    Canberra was founded in [...].
+    `Canberra was founded in [...].`
 
 …​on the question, with the full sentence on the answer. The other card
 will have the following on the question:
 
-    [...] was founded in 1913.
+    `[...] was founded in 1913.`
 
 You can also elide multiple sections on the same card. In the above
 example, if you change c2 to c1, only one card would be created, with
@@ -376,34 +376,34 @@ while creating a cloze, Anki will automatically use the same number
 instead of incrementing it.
 
 Cloze deletions don't need to fall on word boundaries, so if you select
-"anberra" rather than "Canberra" in the above example, the question
-would appear as "C\[…​\] was founded in 1913", giving you a hint.
+`"anberra"` rather than `"Canberra"` in the above example, the question
+would appear as `"C\[…​\] was founded in 1913"`, giving you a hint.
 
 You can also give yourself hints that don't match the text. If you
 replace the original sentence with:
 
-    Canberra::city was founded in 1913
+    `Canberra::city was founded in 1913`
 
-…​and then press \[…​\] after selecting "Canberra::city", Anki will
+…​and then press \[…​\] after selecting `"Canberra::city"`, Anki will
 treat the text after the two colons as a hint, changing the text into:
 
-    {{c1::Canberra::city}} was founded in 1913
+    `{{c1::Canberra::city}} was founded in 1913`
 
 When the card comes up for review, it will appear as:
 
-    [city] was founded in 1913.
+    `[city] was founded in 1913.`
 
 For information on testing your ability to type in a cloze deletion
 correctly, please see the section on [typing answers](templates/fields.md#checking-your-answer).
 
 From version 2.1.56, nested cloze deletions are supported. For example, the following is valid:
 
-    {{c1::Canberra was {{c2::founded}}}} in 1913
+    `{{c1::Canberra was {{c2::founded}}}} in 1913`
 
 The inner cloze is entirely nested within the outer. There is no support for partial overlaps, such as:
 
-    [...] founded in 1913 -> Canberra was
-    Canberra [...] in 1913 -> was founded
+    `[...] founded in 1913 -> Canberra was`
+    `Canberra [...] in 1913 -> was founded`
 
 with the word "was" appearing in both deletions.
 
@@ -416,9 +416,9 @@ Prior to version 2.1.56, if you need to create clozes from overlapping text, add
 field to your cloze, add it to the [template](templates/intro.md), and then when
 creating notes, paste the text into two separate fields, like so:
 
-    Text1 field: {{c1::Canberra was founded}} in 1913
+    `Text1 field: {{c1::Canberra was founded}} in 1913`
 
-    Text2 field: {{c2::Canberra}} was founded in 1913
+    `Text2 field: {{c2::Canberra}} was founded in 1913`
 
 The default cloze note type has a second field called Extra, that is
 shown on the answer side of each card. It can be used for adding some
@@ -441,10 +441,10 @@ of an image, testing your knowledge of that hidden information.
 
 ### Adding an image
 
-To add IO cards to your collection, open the Add screen, click on "Type"
-and choose "Image Occlusion" from the list of built-in note types.
-Then, click on "Select Image" to load an image file saved on your
-computer's hard drive, or on "Paste image from clipboard"
+To add IO cards to your collection, open the Add screen, click on `"Type"`
+and choose `"Image Occlusion"` from the list of built-in note types.
+Then, click on `"Select Image"` to load an image file saved on your
+computer's hard drive, or on `"Paste image from clipboard"`
 if you have an image copied to the clipboard.
 
 ### Adding IO cards
@@ -459,20 +459,20 @@ There are three basic shapes to choose from:
 
 You can also choose between two different IO modes for each note:
 
-- **Hide All, Guess One**: All areas are hidden and only one
+- **`Hide All, Guess One`**: All areas are hidden and only one
   area at a time is revealed while learning.
-- **Hide One, Guess One**: Only one area at a time is hidden
+- **`Hide One, Guess One`**: Only one area at a time is hidden
   and will be revealed during learning. The other areas will be visible.
 
 ![Image Occlusion Modes](media/io_modes.jpg)
 
 <!-- fields & tags are not intuitive to find in editor -->
 The default IO note type also has standard fields:
-**Header** (displayed above the image on the front and back of each card),
-**Back Extra** (displayed below the image on the back of each card),
-and **Comments** (not displayed on the cards). To access those from the IO editor,
-click the **Toggle Mask Editor** button.
-There you can also view and edit the **Tags** of the note.
+**`Header`** (displayed above the image on the front and back of each card),
+**`Back Extra`** (displayed below the image on the back of each card),
+and **`Comments`** (not displayed on the cards). To access those from the IO editor,
+click the **`Toggle Mask Editor`** button.
+There you can also view and edit the **`Tags`** of the note.
 
 Once you're done, click on the "Add" button, at the bottom of the screen.
 Anki will add a card for each shape or group of shapes you added in the previous step,
@@ -505,7 +505,7 @@ can use. Of note:
 - Alignment: This tool can be used to align your shapes / text areas as desired.
 
 While reviewing IO Cards a "Toggle Masks" button will appear just below the image.
-This button will temporary clear all shapes of the note when using "Hide All, Guess One" mode.
+This button will temporary clear all shapes of the note when using `"Hide All, Guess One"` mode.
 
 ## Inputting Non-Latin Characters and Accents
 

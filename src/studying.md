@@ -19,7 +19,7 @@ When you click on a deck, it will become the "current deck", and Anki
 will change to the study screen. You can return to the deck list at any time by clicking on “Decks” at
 the top of the main window. (You can also use the Study
 Deck action in the menu to select a new deck from the keyboard, or you
-can press the <kbd>s</kbd> key to study the currently selected deck.)
+can press the `<kbd>s</kbd>` key to study the currently selected deck.)
 
 You can click the gears button to the right of a deck to rename or
 delete the deck, change its [options](deck-options.md), or [export](exporting.md) it.
@@ -41,7 +41,7 @@ To start a study session, click the **Study Now** button. Anki will
 proceed to show you cards until the cards to be shown for the day have
 run out.
 
-While studying, you can return to the overview by pressing the <kbd>s</kbd> key
+While studying, you can return to the overview by pressing the `<kbd>s</kbd>` key
 on your keyboard.
 
 ## Questions
@@ -60,19 +60,19 @@ with the answer that is shown and select any of the following buttons.
 
 - **Again**: Select this when your answer is incorrect or when you couldn't recall the answer. If your answer is partially correct, you should be strict with yourself: if it counts as a fail in a real-life context outside of Anki, then it counts as a fail in Anki as well. You'll typically use this button about 5-20% of the time.
 
-  Keyboard Shortcut: <kbd>1</kbd>
+  Keyboard Shortcut: `<kbd>1</kbd>`
 
 - **Hard**: Select this button when your answer is correct, but you had doubts about it or it took a long time to recall.
 
-  Keyboard Shortcut: <kbd>2</kbd>
+  Keyboard Shortcut: `<kbd>2</kbd>`
 
 - **Good**: Select this when your answer is correct, but it took some mental effort to recall it. When Anki is used properly, this should be the most commonly used button. You'll typically use this button about 80-95% of the time.
 
-  Keyboard Shortcut: <kbd>3</kbd>, <kbd>Space</kbd>, <kbd>Enter</kbd>
+  Keyboard Shortcut: `<kbd>3</kbd>`, `<kbd>Space</kbd>`, `<kbd>Enter</kbd>`
 
 - **Easy**: Select this if your answer is correct and it took no mental effort to recall it.
 
-  Keyboard Shortcut: <kbd>4</kbd>
+  Keyboard Shortcut: `<kbd>4</kbd>`
 
 If you find it hard to use four answer buttons, you can also use only **Again** and **Good** buttons. Use **Again** for incorrect answers and use **Good** for correct answers.
 
@@ -161,7 +161,7 @@ card or note:
 
 Studying will show cards from the selected deck and any decks it
 contains. Thus, if you select your “French” deck, the subdecks
-“French::Vocab” and “French::My Textbook::Lesson 1” will be shown as
+“`French::Vocab`” and “`French::My Textbook::Lesson 1`” will be shown as
 well.
 
 By default, for new cards, Anki gathers cards from the decks in
@@ -170,8 +170,8 @@ from “French”, then “My Textbook”, and finally “Vocab”. You can use 
 to control the order cards appear in, placing high priority cards in
 decks that appear higher in the list. When computers sort text
 alphabetically, the “-” character comes before alphabetical characters,
-and “\~” comes after them. So you could call the deck “-Vocab” to make
-them appear first, and you could call the other deck “\~My Textbook” to
+and “~” comes after them. So you could call the deck “`-Vocab`” to make
+them appear first, and you could call the other deck “`~My Textbook`” to
 force it to appear after everything else.
 
 New cards and reviews are gathered separately, and Anki won’t wait until
@@ -222,17 +222,17 @@ show its shortcut in a tooltip.
 
 When studying, either <kbd>Space</kbd> or <kbd>Enter</kbd> will show the answer. When the
 answer is shown, you can use <kbd>Space</kbd> or <kbd>Enter</kbd> to select the Good button.
-You can use the <kbd>1</kbd>-<kbd>4</kbd> keys to select a specific ease button. Many people
+You can use the `<kbd>1</kbd>`-`<kbd>4</kbd>` keys to select a specific ease button. Many people
 find it convenient to answer most cards with <kbd>Space</kbd> and keep one finger
-on <kbd>1</kbd> for when they forget.
+on `<kbd>1</kbd>` for when they forget.
 
 The "Study Deck" item in the Tools menu allows you to quickly switch to
-a deck with the keyboard. You can trigger it with the <kbd>/</kbd> key. When
+a deck with the keyboard. You can trigger it with the `<kbd>/</kbd>` key. When
 opened, it will display all of your decks and show a filter area at the
 top. As you type characters, Anki will display only decks matching the
 characters you type. You can add a space to separate multiple search
-terms, and Anki will show only decks that match all the terms. So “ja 1”
-or “on1 ja” would both match a deck called “Japanese::Lesson1”.
+terms, and Anki will show only decks that match all the terms. So “`ja 1`”
+or “`on1 ja`” would both match a deck called “Japanese::Lesson1”.
 
 ## Falling Behind
 

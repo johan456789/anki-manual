@@ -40,13 +40,13 @@ Anki, a card doesn't look like a physical card, and when you
 show the answer the question remains visible by default. For example, if
 you're studying basic chemistry, you might see a question like:
 
-    Q: Chemical symbol for oxygen?
+    Q: `Chemical symbol for oxygen?`
 
 After deciding the answer is O, you click the
 "Show Answer" button, and Anki shows you:
 
-    Q: Chemical symbol for oxygen?
-    A: O
+    Q: `Chemical symbol for oxygen?`
+    A: `O`
 
 After confirming that you are correct, you tell Anki how well you
 remembered the answer, and Anki will choose when to show you the card again. For example, Anki might decide to show you the card again in 3 days. In this case, we say the card now has a 3 day interval.
@@ -75,25 +75,25 @@ to show each day, or how long to wait until cards are shown again.
 
 Decks can contain other decks, which allows you to organize decks into a
 tree. Anki uses double colons ("::") to show different levels within the deck tree. For example, a deck called
-"Chinese::Hanzi" refers to a "Hanzi" deck, which is part of a "Chinese"
-deck. If you select "Hanzi", then only the Hanzi cards will be shown; if
-you select "Chinese", then all the Chinese cards will be shown, including the Hanzi cards.
+`"Chinese::Hanzi"` refers to a `"Hanzi"` deck, which is part of a `"Chinese"`
+deck. If you select `"Hanzi"`, then only the Hanzi cards will be shown; if
+you select `"Chinese"`, then all the Chinese cards will be shown, including the Hanzi cards.
 
 To place decks within a tree, you can either name them with double colons between
 each level, or drag and drop them within the deck list. Decks that have
 been placed inside another deck are often called "subdecks", and top-level decks are called "parent decks".
 
-Anki starts with a deck called "Default"; any cards which have somehow
+Anki starts with a deck called `"Default"`; any cards which have somehow
 become separated from other decks will go here. Anki will hide the
 default deck if it contains no cards and you have added other decks.
 Alternatively, you may rename this deck and use it for other cards.
 
 Decks in the deck list are sorted alphabetically. This can result in
-a surprising order if your deck names contain numbers. For example, "My Deck 10"
-will come before "My Deck 9", as 1 comes before 9. If you want "My deck 9" to appear earlier, you can rename it to "My deck 09", which appears before "My deck 10".
+a surprising order if your deck names contain numbers. For example, `"My Deck 10"`
+will come before `"My Deck 9"`, as 1 comes before 9. If you want `"My deck 9"` to appear earlier, you can rename it to `"My deck 09"`, which appears before `"My deck 10"`.
 
 Decks are best used to hold broad categories of cards, rather than
-specific topics such as "food verbs" or "lesson 1". For more information about
+specific topics such as `"food verbs"` or `"lesson 1"`. For more information about
 this, please see the [using decks appropriately](editing.md#using-decks-appropriately) section.
 
 For information on how the order of decks affects the order cards are studied in,
@@ -133,26 +133,26 @@ Imagine we want to study French vocabulary, and we want to include a textbook
 page number on the back of each card. We want our cards to look like
 this:
 
-    Q: Bonjour
-    A: Hello
-       Page #12
+    Q: `Bonjour`
+    A: `Hello`
+       `Page #12`
 
 And this:
 
-    Q: Hello
-    A: Bonjour
-       Page #12
+    Q: `Hello`
+    A: `Bonjour`
+       `Page #12`
 
 In both cards, we have the same three related pieces of information: a French
 word, an English meaning, and a page number. If we put them together,
 they’d look like this:
 
-    French: Bonjour
-    English: Hello
-    Page: 12
+    French: `Bonjour`
+    English: `Hello`
+    Page: `12`
 
 In Anki, this collection of related information is called a _note_ and each piece of information is contained in a _field_. In this example, the note
-has three fields: "French", "English", and "Page".
+has three fields: `"French"`, `"English"`, and `"Page"`.
 
 To add and edit fields, click the "Fields…​" button while adding or
 editing notes. For more information on fields, please see the
@@ -206,39 +206,39 @@ Anki allows you to create different types of notes for different
 material. Each type of note has its own set of fields and card types.
 It's a good idea to create a separate note type for each broad topic
 you're studying. In the previous French example, we might create a note
-type called "French" for that. If we wanted to learn capital cities, we
+type called `"French"` for that. If we wanted to learn capital cities, we
 could create a note type for that as well, with fields such as
-"Country" and "Capital City".
+`"Country"` and `"Capital City"`.
 
 Anki comes with some standard
 note types included. These note types are provided to make Anki easier for
 new users, but in the long run it's recommended you create your own note
 types specifically for the content you are learning. The standard note types are:
 
-- **Basic**\
-  Has "Front" and "Back" fields, and will create one card. Text you enter in
-  "Front" will appear on the front of the card, and text you enter in "Back"
+- **`Basic`**\
+  Has `"Front"` and `"Back"` fields, and will create one card. Text you enter in
+  `"Front"` will appear on the front of the card, and text you enter in `"Back"`
   will appear on the back of the card.
 
-- **Basic (and reversed card)**\
-  Like "Basic", but creates two cards for the text you enter:
+- **`Basic (and reversed card)`**\
+  Like `"Basic"`, but creates two cards for the text you enter:
   front→back and back→front.
 
-- **Basic (optional reversed card)**\
-  Like "Basic", but has a third field called "Add Reverse". If you enter any text into
+- **`Basic (optional reversed card)`**\
+  Like `"Basic"`, but has a third field called `"Add Reverse"`. If you enter any text into
   that field, a reversed card (back→front) will also be created. For details, see the [Cards and Templates](templates/intro.md) section.
 
-- **Basic (type in the answer)**\
-  This is essentially "Basic", with an extra text box on the front where you
+- **`Basic (type in the answer)`**\
+  This is essentially `"Basic"`, with an extra text box on the front where you
   can type your answer in. When you reveal the back, Anki will show you any differences between your input and the actual answer. For details, see the
   [Checking Your Answer](templates/fields.md#checking-your-answer) section.
 
-- **Cloze**\
+- **`Cloze`**\
   A note type that allows you to select text and turn it into a cloze
   deletion (e.g. "Humans landed on the moon in \[…​\]" → "Humans landed on the
   moon in 1969"). For details, see the [cloze deletion](editing.md#cloze-deletion) section.
 
-- **Image Occlusion**\
+- **`Image Occlusion`**\
   Like the cloze note type, but it works with images instead of text,
   which is especially useful when studying material that heavily relies on images,
   such as anatomy and geography. For details, please see the [Image Occlusion](editing.md#image-occlusion)
