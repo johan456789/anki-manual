@@ -11,8 +11,8 @@ and the Add Notes window will appear.
 ![Add Screen](media/add_screen.png)
 
 The top left of the window shows us the current [note type](getting-started.md#note-types). If it does
-not say "Basic," then you may have added some note types when you
-downloaded a shared deck. The text below assumes that "Basic" is
+not say _Basic,_ then you may have added some note types when you
+downloaded a shared deck. The text below assumes that _Basic_ is
 selected.
 
 The top right of the window shows us the [deck](getting-started.md#decks) cards will be added to. If
@@ -20,7 +20,7 @@ you would like to add cards to a new deck, you can click on the deck name
 button and then click **Add**.
 
 Below the note type, you'll see some buttons, and an area labelled
-"Front" and "Back". Front and Back are called [fields](getting-started.md#notes--fields), and you can add,
+_Front_ and _Back_. _Front_ and _Back_ are called [fields](getting-started.md#notes--fields), and you can add,
 remove, and rename them by clicking the "Fields…​" button above.
 
 Below the fields is another area labelled "**tags**". Tags are labels that
@@ -45,9 +45,9 @@ fields, please see the [editor](editing.md) section.
 ### Duplicate Check
 
 Anki checks the first field for uniqueness, so it will warn you if you
-enter two cards with a Front field of "apple" (for example). The
+enter two cards with a _Front_ field of "apple" (for example). The
 uniqueness check is limited to the current note type, so if you're
-studying multiple languages, two cards with the same Front would not be
+studying multiple languages, two cards with the same _Front_ would not be
 listed as duplicates as long as you had a different note type for each
 language.
 
@@ -126,7 +126,7 @@ Alternatively you can also drag and drop the field names to re-order them. To do
 that, use your mouse or finger to drag the field to the desired position. An indicator will
 show you where the field will be moved to.
 
-Do not use "Tags", "Type", "Deck", "Card", or "FrontSide" as field
+Do not use _Tags_, _Type_, _Deck_, _Card_, or _FrontSide_ as field
 names, as they are [special fields](templates/fields.md#special-fields) and will not work
 properly.
 
@@ -242,10 +242,10 @@ You can flag / unflag cards directly while in review mode (by pressing
 <kbd>CTRL</kbd> + <kbd>1-7</kbd> on Windows or <kbd>CMD</kbd> + <kbd>1-7</kbd> on Mac)
 and from the [Browser.](browsing.md)
 
-### The "Marked" Tag
+### The _Marked_ Tag
 
-Anki treats a tag called "marked" specially. There are options in the review
-screen and browse screen to add and remove the "marked" tag. The study screen
+Anki treats a tag called _marked_ specially. There are options in the review
+screen and browse screen to add and remove the _marked_ tag. The study screen
 will show a star when the current card's note has that tag. And cards are
 shown in a different color in the browse screen when their note is marked.
 
@@ -345,8 +345,8 @@ For more information on why you might want to use cloze deletion, see
 Rule 5 [here](https://super-memory.com/articles/20rules.htm).
 
 Anki provides a special cloze deletion type of note, to make creating
-clozes easy. To create a cloze deletion note, select the Cloze note
-type, and type some text into the "Text" field. Then drag the mouse over
+clozes easy. To create a cloze deletion note, select the _Cloze_ note
+type, and type some text into the _Text_ field. Then drag the mouse over
 the text you want to hide to select it, and click the \[…​\] button.
 Anki will replace the text with:
 
@@ -420,13 +420,13 @@ creating notes, paste the text into two separate fields, like so:
 
     Text2 field: {{c2::Canberra}} was founded in 1913
 
-The default cloze note type has a second field called Extra, that is
+The default cloze note type has a second field called _Extra_, that is
 shown on the answer side of each card. It can be used for adding some
 usage notes or extra information.
 
 The cloze note type is treated specially by Anki, and cannot be created
 based on a regular note type. If you wish to customize it, please make
-sure to clone the existing Cloze type instead of another type of note.
+sure to clone the existing _Cloze_ type instead of another type of note.
 Things like formatting can be customized, but it is not possible to add
 extra card templates to the cloze note type.
 
@@ -441,10 +441,10 @@ of an image, testing your knowledge of that hidden information.
 
 ### Adding an image
 
-To add IO cards to your collection, open the Add screen, click on "Type"
-and choose "Image Occlusion" from the list of built-in note types.
-Then, click on "Select Image" to load an image file saved on your
-computer's hard drive, or on "Paste image from clipboard"
+To add IO cards to your collection, open the Add screen, click on _Type_
+and choose _Image Occlusion_ from the list of built-in note types.
+Then, click on _Select Image_ to load an image file saved on your
+computer's hard drive, or on _Paste image from clipboard_
 if you have an image copied to the clipboard.
 
 ### Adding IO cards
@@ -468,11 +468,11 @@ You can also choose between two different IO modes for each note:
 
 <!-- fields & tags are not intuitive to find in editor -->
 The default IO note type also has standard fields:
-**Header** (displayed above the image on the front and back of each card),
-**Back Extra** (displayed below the image on the back of each card),
-and **Comments** (not displayed on the cards). To access those from the IO editor,
-click the **Toggle Mask Editor** button.
-There you can also view and edit the **Tags** of the note.
+_Header_ (displayed above the image on the front and back of each card),
+_Back Extra_ (displayed below the image on the back of each card),
+and _Comments_ (not displayed on the cards). To access those from the IO editor,
+click the _Toggle Mask Editor_ button.
+There you can also view and edit the _Tags_ of the note.
 
 Once you're done, click on the "Add" button, at the bottom of the screen.
 Anki will add a card for each shape or group of shapes you added in the previous step,
@@ -504,7 +504,7 @@ can use. Of note:
 - Ungroup selection: Select a group and then click this button to make each shape independent again.
 - Alignment: This tool can be used to align your shapes / text areas as desired.
 
-While reviewing IO Cards a "Toggle Masks" button will appear just below the image.
+While reviewing IO Cards a _Toggle Masks_ button will appear just below the image.
 This button will temporary clear all shapes of the note when using "Hide All, Guess One" mode.
 
 ## Inputting Non-Latin Characters and Accents

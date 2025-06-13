@@ -507,7 +507,7 @@ It also uses your FSRS parameters and the value of desired retention, therefore 
 (Re)learning steps of 1 day or greater are not recommended when using FSRS. The main
 reason they were popular with the legacy SM-2 algorithm is because repeatedly
 failing a card after it has graduated from the learning phase could reduce
-its ease a lot, leading to what some people called "ease hell". This is not
+its ease a lot, leading to what some people called _ease hell_. This is not
 a problem that FSRS suffers from. By keeping your learning steps under a
 day, you will allow FSRS to schedule cards at times it has calculated are
 optimal for your material and memory. Another reason not to use longer

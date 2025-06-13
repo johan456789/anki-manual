@@ -56,7 +56,7 @@ question on one side of a card, and the answer on the other side. By not
 turning the card over until you've recalled the answer, you can
 learn things more effectively than passive observation allows.
 
-## Use It or Lose It
+## _Use It or Lose It_
 
 Our brains are efficient machines, and they rapidly forget information
 that doesn't seem useful. Chances are that you don't remember what you
@@ -65,7 +65,7 @@ usually useful. However, if you went to a fantastic restaurant that day and have
 the last two weeks telling people about how great it was,
 you're likely to still remember it in vivid detail.
 
-The brain's "use it or lose it" policy applies to everything we learn.
+The brain's _use it or lose it_ policy applies to everything we learn.
 If you spend an afternoon memorizing some science terms, and then don't
 think about that material for two weeks, you'll probably have forgotten
 most of it. In fact, studies show we forget about 75% of material learned
@@ -118,8 +118,8 @@ time today, then 3 days later, 15 days later, 45 days later, and so on.
 
 This was a revolution in learning, as it meant material could be learned
 and retained with the absolute minimum amount of effort necessary.
-SuperMemo's slogan sums it up: with spaced repetition, you can: "forget
-about forgetting".
+SuperMemo's slogan sums it up: with spaced repetition, you can: _forget
+about forgetting_.
 
 ## Why Anki?
 
