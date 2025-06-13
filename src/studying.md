@@ -48,7 +48,7 @@ on your keyboard.
 
 When a card is shown, only the question is shown at first. After
 thinking about the answer, either click the **Show Answer** button, or
-press the spacebar. The answer will then be shown. It’s okay if it takes
+press the <kbd>spacebar</kbd>. The answer will then be shown. It’s okay if it takes
 you a little while to recall the answer, but as a general rule if you
 can’t answer within about 10 seconds, it’s probably better to move on
 and show the answer than keep struggling to remember.
