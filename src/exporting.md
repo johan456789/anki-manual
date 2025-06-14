@@ -3,11 +3,11 @@
 <!-- toc -->
 
 Exporting allows you to save part of your collection as a text file or
-packaged Anki deck. To export, click the **File menu** and choose **Export**.
+packaged Anki deck. To export, click the **File** menu and choose **Export**.
 
 ## Text Files
 
-If you choose **"Notes in Plain Text"**, Anki will write the contents of the
+If you choose "Notes in Plain Text (.txt)", Anki will write the contents of the
 notes into a text file. Each field is separated by a tab. If you edit
 the resulting file and don't modify the first field, you can later
 import that file back into Anki and Anki will update your notes based on
@@ -49,7 +49,7 @@ devices.
 Existing media in your collection is not deleted when you import a
 collection package. To delete unused media, use **Tools** > **Check Media**.
 
-If you choose **Anki 2.1.50+ Collection Package** format, imports and exports
+If you choose "Anki Collection Package (.colpkg)" format, imports and exports
 will be faster, and media files will be compressed, but the resulting
 .colpkg file will not be readable by older Anki clients.
 
