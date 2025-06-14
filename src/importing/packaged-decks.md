@@ -16,7 +16,7 @@ If you encounter imported cards with unexpectedly large intevals, the deck autho
 accidentally have included their scheduling information. You can use the
 [Set Due Date feature](../browsing.md#cards) to reset the imported cards. On Anki
 23.10 and later, you can remove any scheduling information during the import process
-by leaving the "**Import any learning progress** option" unselected. This will also remove
+by leaving the "Import any learning progress" option unselected. This will also remove
 any "leech" or "marked" tags from the imported cards.
 
 ## Updating
