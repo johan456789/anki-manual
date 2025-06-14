@@ -2,12 +2,12 @@
 
 <!-- toc -->
 
-Anki's Browse screen and the Filtered Deck feature use a common method
+Anki's **Browse screen** and the Filtered Deck feature use a common method
 of searching for specific cards/notes. This method can also be used to adjust the scope of FSRS optimization. 
 
 ## Simple searches
 
-When you type some text into the search box, Anki finds matching notes
+When you type some text into the **search box**, Anki finds matching notes
 and displays their cards. Anki searches in all fields of the notes, but
 does not search for tags (see [later in this section](#tags-decks-cards-and-notes) to search for tags). Some examples:
 
@@ -219,7 +219,7 @@ Some things to be aware of:
 
 - The search is case-insensitive by default; use `(?-i)` at the start to turn on case sensitivity.
 - Some text like spaces and newlines may be represented differently in HTML - you can
-  use the HTML editor in the editing screen to see the underlying HTML contents.
+  use the **HTML editor** in the **editing screen** to see the underlying HTML contents.
 - For the specifics of Anki's regex support, see the [regex crate documentation](<https://docs.rs/regex/1.3.9/regex/#syntax>).
 
 ## Card state
@@ -450,8 +450,8 @@ the note with note id 123.
 `cid:123,456,789`\
 all cards with card ids 123, 456, or 789.
 
-Note and card IDs can be found in the [card info](stats.md) dialog in the
-browser. These searches may also be helpful when doing add-on
+Note and card IDs can be found in the **[card info](stats.md) dialog** in the
+**browser**. These searches may also be helpful when doing add-on
 development or otherwise working closely with the database.
 
 ## Custom Data

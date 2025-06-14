@@ -30,15 +30,14 @@ When you edit a previously added note, Anki will automatically create
 extra cards if they were previously blank but no longer are. If your
 edits have made some cards blank when they previously were not, however,
 Anki will not delete them immediately, as that could lead to accidental
-data loss. To remove the empty cards, go to Tools → Empty Cards in the
-main window. You will be shown a list of empty cards and be given the
+data loss. To remove the empty cards, go to **Tools** → **Empty Cards** in the
+**main window**. You will be shown a list of empty cards and be given the
 option to delete them.
 
 Because of the way that card generation works, it is not possible to
 manually delete individual cards, as they would just end up being recreated
 the next time the note was edited. Instead, you should make the
-relevant conditional replacement fields empty and then use the Empty
-Cards option.
+relevant conditional replacement fields empty and then use the **Empty Cards option**.
 
 Anki does not consider special fields or non-field text for the purposes
 of card generation. Thus if your front template looked like the

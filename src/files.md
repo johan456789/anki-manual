@@ -5,7 +5,7 @@
 ## Checking Your Collection
 
 It is a good idea to occasionally check your collection file for
-problems. You can do this via the Tools&gt;Check Database menu item.
+problems. You can do this via the **Tools** > **Check Database menu item**.
 Checking the database ensures the file has not been corrupted, rebuilds some
 internal structures, and optimizes the file.
 
@@ -24,14 +24,14 @@ automatically optimizing.
 
 On **Windows**, the latest Anki versions store your Anki files in your
 appdata folder. You can access it by opening the file manager, and
-typing `%APPDATA%\Anki2` in the location field. Older versions of Anki
+typing `%APPDATA%\Anki2` in the **location field**. Older versions of Anki
 stored your Anki files in a folder called `Anki` in your `Documents`
 folder.
 
 On **Mac** computers, recent Anki versions store all their files in the
 `~/Library/Application Support/Anki2` folder. The Library folder is
-hidden by default, but can be revealed in Finder by holding down the
-option key while clicking on the Go menu. If you're on an older Anki
+hidden by default, but can be revealed in **Finder** by holding down the
+option key while clicking on the **Go menu**. If you're on an older Anki
 version, your Anki files will be in your `Documents/Anki` folder.
 
 On **Linux**, recent Anki versions store your data in
@@ -79,15 +79,15 @@ The syntax to specify an alternate folder is as follows:
 
 - If you have multiple profiles, you can pass -p &lt;name&gt; to load
   a specific profile.
-- If you pass -p some-fake-name, Anki will show the profile screen on startup.
+- If you pass -p some-fake-name, Anki will show the **profile screen** on startup.
   If no profile is provided, the last-used profile is loaded.
 
 - To change the interface language, use -l &lt;iso 639-1 language
   code&gt;, such as "-l ja" for Japanese.
 
 If you always want to use a custom folder location, you can modify your
-shortcut to Anki. On Windows, right-click on the shortcut, choose
-Properties, select the Shortcut tab, and add "-b
+shortcut to Anki. On Windows, right-click on the **shortcut**, choose
+**Properties**, select the **Shortcut tab**, and add "-b
 \\path\\to\\data\\folder" after the path to the program, which should
 leave you with something like
 
@@ -136,8 +136,7 @@ never synchronized while they are open.
 
 We strongly recommend you have Anki store your files on a local hard
 disk, as network filesystems can lead to database corruption. If a
-network filesystem is your only option, regular use of Tools&gt;Check
-Database to detect corruption is recommended.
+network filesystem is your only option, regular use of **Tools** > **Check Database** to detect corruption is recommended.
 
 ## Running from a Flash Drive
 
@@ -157,7 +156,7 @@ remaining open, you can instead use:
 
     start /b g:\anki\anki.exe -b g:\ankidata
 
-- Double-clicking on anki.bat should start Anki with the user data
+- Double-clicking on **anki.bat** should start Anki with the user data
   stored in G:\\ankidata.
 
 The full path including drive letter is required - if you try using
@@ -189,18 +188,18 @@ If you're on a Windows 7 machine, the general steps to fix the problem
 are listed below. As this is somewhat complicated, please ask someone
 knowledgeable about Windows if you are not sure.
 
-1. Click on the start bar, and type in %temp% (including the percents),
+1. Click on the **start bar**, and type in %temp% (including the percents),
    then hit <kbd>Enter</kbd>.
 
 2. Go up one folder, and locate the temp folder. Right click on it, and
-   choose Properties.
+   choose **Properties**.
 
-3. In the security tab, click on Advanced.
+3. In the **security tab**, click on **Advanced**.
 
-4. Click on the Owner tab. If you're not listed as the owner, click the
-   button to take ownership.
+4. Click on the **Owner tab**. If you're not listed as the owner, click the
+   **button** to take ownership.
 
-5. On the permissions tab, ensure that you have full control. On a
+5. On the **permissions tab**, ensure that you have full control. On a
    default W7 install the control will actually be inherited from
    c:\\users\\your-username.
 
@@ -211,7 +210,7 @@ crashes, but it's still possible for your collection to become corrupt
 if the files are modified while Anki is open, stored on a network drive,
 or corrupted by a bug.
 
-When you run Tools&gt;Check Database, you will receive a message if Anki
+When you run **Tools** > **Check Database**, you will receive a message if Anki
 detects the file has been corrupted. **The best way to recover from this
 is to restore from the most recent [automatic backup](#backups)**, but
 if your backup is too old, then you can attempt to repair the corruption
@@ -245,7 +244,7 @@ step.
 ### Windows
 
 Copy the `sqlite3.exe` program and your deck to your desktop. Then go to
-**Start&gt;Run** and type in `cmd.exe`.
+**Start** > **Run** and type in `cmd.exe`.
 
 If you're on a recent Windows, the command prompt may not start on your
 desktop. If you don't see desktop displayed in the command prompt, type
@@ -284,5 +283,5 @@ When you've confirmed the file is not empty:
 - move collection.anki2 back into your collection folder, overwriting
   the old version
 
-- start Anki and go to Tools&gt;Check Database to make sure the
+- start Anki and go to **Tools** > **Check Database** to make sure the
   collection has been successfully restored.

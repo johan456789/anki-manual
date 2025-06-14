@@ -34,7 +34,7 @@ line, and then the Back field”.
 
 The "id=answer" part tells Anki where the divider is between the
 question and the answer. This allows Anki to automatically scroll to the
-spot where the answer starts when you press **show answer** on a long card
+spot where the answer starts when you press **Show Answer** on a long card
 (especially useful on mobile devices with small screens). If you don’t
 want a horizontal line at the beginning of the answer, you can use
 another HTML element such as a paragraph or div instead.
@@ -100,13 +100,13 @@ Both speed and voices are optional, but the language must be included.
 
 On a Mac, you can customize the available voices:
 
-- Open the System Preferences screen.
+- Open the **System Preferences screen**.
 
-- Click on Accessibility.
+- Click on **Accessibility**.
 
-- Click on Speech.
+- Click on **Speech**.
 
-- Click on the system voice dropdown, and choose Customize.
+- Click on the **system voice dropdown**, and choose **Customize**.
 
 Some voices sound better than others, so experiment to choose the one
 you prefer. Please note that the Siri voice can only be used by Apple
@@ -182,7 +182,7 @@ your template:
 
     {{hint:MyField}}
 
-This will show a link labeled “show hint”; when you click it, the
+This will show a link labeled **“show hint”**; when you click it, the
 content of the field will be displayed on the card. (If MyField is
 empty, nothing will be shown.)
 
@@ -345,8 +345,8 @@ see the [importing section](../importing/text-files.md#importing-media) for more
 You can watch [a video about this feature](http://www.youtube.com/watch?v=5tYObQ3ocrw&yt:cc=on) on
 YouTube.
 
-The easiest way to check your answer is to click "Basic" at the top
-left of the card adding screen, and select "Basic (type in the answer)".
+The easiest way to check your answer is to click **`Basic`** at the top
+left of the **card adding screen**, and select **`Basic (type in the answer)`**.
 
 If you have downloaded a shared deck and would like to type in the answer
 with it, you can modify its card template. If it has a template like:
@@ -371,9 +371,9 @@ will appear on the back as well.
 
 When reviewing, Anki will display a text box where you can type in the
 answer, and upon hitting <kbd>Enter</kbd> or showing the answer, Anki will show you
-which parts you got right and which parts you got wrong. The text box’s
+which parts you got right and which parts you got wrong. The **text box’s**
 font size will be the size you configured for that field (via the
-“Fields” button when editing).
+**“Fields” button** when editing).
 
 This feature does not change how the cards are answered, so it’s still
 up to you to decide how well you remembered or not.
@@ -386,7 +386,7 @@ comprised of multiple lines.
 Anki uses a monospaced font for the answer comparison so that the
 “provided” and “correct” sections line up. If you wish to override the
 font for the answer comparison, you can put the following at the bottom
-of your styling section:
+of your **styling section**:
 
     code#typeans { font-family: "myfontname"; }
 
@@ -399,7 +399,7 @@ classes "typeGood", "typeBad" and "typeMissed". AnkiMobile supports
 "typeGood" and "typeBad", but not "typeMissed".
 
 If you wish to override the size of the typing box and don’t want to
-change the font in the Fields dialog, you can override the default
+change the font in the **Fields dialog**, you can override the default
 inline style using `!important`, like so:
 
     #typeans { font-size: 50px !important; }
@@ -416,9 +416,9 @@ Note that since the cloze type does not use FrontSide, this must be
 added to both sides on a cloze note type.
 
 If there are multiple sections elided, you can separate the answers in
-the text box with a comma.
+the **text box** with a comma.
 
-Type answer boxes will not appear in the ["preview" dialog](intro.md) in the browser. When you review or look at
-the preview in the card types window, they will display.
+Type answer boxes will not appear in the **["preview" dialog](intro.md)** in the **browser**. When you review or look at
+the preview in the **card types window**, they will display.
 
 Type answer boxes will not be displayed when you review your cards on [ankiweb.net](../syncing.md).

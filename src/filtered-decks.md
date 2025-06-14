@@ -18,15 +18,14 @@ ahead of schedule, going over the day's failed cards, and more.
 
 ## Custom Study
 
-The easiest way to create a filtered deck is with the Custom Study
-button, which appears at the bottom of the screen when you click on a
+The easiest way to create a filtered deck is with the **Custom Study button**, which appears at the bottom of the screen when you click on a
 deck. It offers some convenient preset filters for common tasks like reviewing
 the cards that you have failed that day. It will create a filtered deck called
 "Custom Study Session" and automatically open it for you.
 
 If an existing "Custom Study Session" deck exists, it will be emptied
 before a new one is created. If you wish to keep a custom study deck,
-you can rename it from the deck list.
+you can rename it from the **deck list**.
 
 Here is a summary of each of the options:
 
@@ -58,7 +57,7 @@ review cards as they are answered.
 **Study by card state or tag**\
 Select a certain number of cards from the current deck to study. You can
 choose to select new cards only, due cards only, or all cards; after you
-click "Choose Tags", you can also limit the selected cards by tags. If
+click **"Choose Tags"**, you can also limit the selected cards by tags. If
 you wish to see all the cards in the deck (for instance, to study before
 a big test), you can set the number of cards to more than the number of
 cards in the deck.
@@ -75,13 +74,13 @@ reviews, depending on your settings.
 
 It is also possible to move all cards back to their home decks at once:
 
-- The "Empty" button in the study overview moves all cards in the
+- The **"Empty" button** in the **study overview** moves all cards in the
   filtered deck back to their home deck, but does not delete the empty
   filtered deck. This can be useful if you want to fill it again later
-  (using the Rebuild button).
+  (using the **Rebuild button**).
 
-- Deleting a filtered deck does the same thing as "Empty" does, but
-  also removes the emptied deck from the deck list. No cards are
+- Deleting a filtered deck does the same thing as **"Empty"** does, but
+  also removes the emptied deck from the **deck list**. No cards are
   deleted when you delete a filtered deck.
 
 ## Creating Manually
@@ -89,34 +88,33 @@ It is also possible to move all cards back to their home decks at once:
 Advanced users can create filtered decks with arbitrary search strings
 (or "filters"),
 instead of relying on the preset filters. To create a filtered deck manually,
-choose Create Filtered Deck from the Tools menu.
+choose **Create Filtered Deck** from the **Tools menu**.
 
-When you click the Build button, Anki finds cards that match the
+When you click the **Build button**, Anki finds cards that match the
 settings you specified, and temporarily moves them from their existing
 decks into your new filtered deck for study.
 
 If you wish to fetch cards again using the same filter options (for
 instance, if you want to study all cards with a particular tag every
-day), you can use the Rebuild button at the bottom of the deck's
-overview screen.
+day), you can use the **Rebuild button** at the bottom of the **deck's overview screen**.
 
-The **search** area controls what cards Anki will gather. All of the
-searches possible in the browser are also possible for filtered decks,
+The **search area** controls what cards Anki will gather. All of the
+searches possible in the **browser** are also possible for filtered decks,
 such as limiting to tags, finding cards forgotten a certain number of
 times, and so on. Please see the [searching](searching.md) section of the
 manual for more information on the different possibilities.
 
 Filtered decks cannot pull in cards that are suspended, buried, or already in a
 different filtered deck. For this reason, a search in the
-browser may reveal cards that do not end up in the filtered deck.
+**browser** may reveal cards that do not end up in the filtered deck.
 
-The **limit** option controls how many cards will be gathered into the
+The **limit option** controls how many cards will be gathered into the
 deck. The order you select controls both the order cards are gathered
 in, and the order they will be reviewed in. If you select "most lapses"
 and a limit of 20 for example, then Anki will show you only the 20 most
 lapsed cards.
 
-The **enable second filter** option allows you to create a filtered deck
+The **enable second filter option** allows you to create a filtered deck
 comprised of two different searches, so that you can, for example, include
 due cards with one order, and a smaller amount of new cards with a different order.
 

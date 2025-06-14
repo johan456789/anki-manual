@@ -43,7 +43,7 @@ you're studying basic chemistry, you might see a question like:
     Q: Chemical symbol for oxygen?
 
 After deciding the answer is O, you click the
-"Show Answer" button, and Anki shows you:
+**"Show Answer" button**, and Anki shows you:
 
     Q: Chemical symbol for oxygen?
     A: O
@@ -80,7 +80,7 @@ deck. If you select "Hanzi", then only the Hanzi cards will be shown; if
 you select "Chinese", then all the Chinese cards will be shown, including the Hanzi cards.
 
 To place decks within a tree, you can either name them with double colons between
-each level, or drag and drop them within the deck list. Decks that have
+each level, or drag and drop them within the **deck list**. Decks that have
 been placed inside another deck are often called "subdecks", and top-level decks are called "parent decks".
 
 Anki starts with a deck called "Default"; any cards which have somehow
@@ -88,7 +88,7 @@ become separated from other decks will go here. Anki will hide the
 default deck if it contains no cards and you have added other decks.
 Alternatively, you may rename this deck and use it for other cards.
 
-Decks in the deck list are sorted alphabetically. This can result in
+Decks in the **deck list** are sorted alphabetically. This can result in
 a surprising order if your deck names contain numbers. For example, "My Deck 10"
 will come before "My Deck 9", as 1 comes before 9. If you want "My deck 9" to appear earlier, you can rename it to "My deck 09", which appears before "My deck 10".
 
@@ -154,7 +154,7 @@ they’d look like this:
 In Anki, this collection of related information is called a _note_ and each piece of information is contained in a _field_. In this example, the note
 has three fields: "French", "English", and "Page".
 
-To add and edit fields, click the "Fields…​" button while adding or
+To add and edit fields, click the **"Fields…​" button** while adding or
 editing notes. For more information on fields, please see the
 [Customizing Fields](editing.md#customizing-fields) section.
 
@@ -197,7 +197,7 @@ ensure related cards don't appear too close to each other, and they
 allow you to fix a typing mistake or factual error once and have all the
 related cards update at once.
 
-To add and edit card types, click the "Cards…​" button while adding or
+To add and edit card types, click the **"Cards…​" button** while adding or
 editing notes. For more information on card types, please see the [Cards and Templates](templates/intro.md) section.
 
 ### Note Types
@@ -225,7 +225,7 @@ types specifically for the content you are learning. The standard note types are
   front→back and back→front.
 
 - **Basic (optional reversed card)**\
-  Like "Basic", but has a third field called "Add Reverse". If you enter any text into
+  Like "Basic", but has a third field called **"Add Reverse"**. If you enter any text into
   that field, a reversed card (back→front) will also be created. For details, see the [Cards and Templates](templates/intro.md) section.
 
 - **Basic (type in the answer)**\
@@ -244,14 +244,14 @@ types specifically for the content you are learning. The standard note types are
   such as anatomy and geography. For details, please see the [Image Occlusion](editing.md#image-occlusion)
   section of the manual.
 
-To add your own note types and modify existing ones, you can use Tools →
-Manage Note Types from the main Anki window.
+To add your own note types and modify existing ones, you can use **Tools** →
+**Manage Note Types** from the main Anki **window**.
 
 Notes and note types are common to your whole collection rather than
 limited to an individual deck. This means you can use different
 note types in a single deck, or have cards generated from the
 same note put into different decks. When you add notes using the
-Add window, you can select what note type to use and what deck to use,
+**Add window**, you can select what note type to use and what deck to use,
 and these choices are completely independent of each other. You can also
 [change the note type of notes](browsing.md#notes) after you've already created them.
 
@@ -267,13 +267,12 @@ You can watch a video about [Shared Decks and Review Basics](http://www.youtube.
 The easiest way to get started with Anki is to download a deck of cards
 someone else has shared:
 
-1. Click the "Get Shared" button at the bottom of the deck list.
+1. Click the **"Get Shared" button** at the bottom of the **deck list**.
 
-2. When you've found a deck you're interested in, click the "Download"
-   button to download a deck package.
+2. When you've found a deck you're interested in, click the **"Download" button** to download a deck package.
 
 3. Double-click the downloaded package to import it into Anki, or go to
-   File → Import.
+   **File** → **Import**.
 
 Note: It’s not currently possible to add shared decks
 directly to your AnkiWeb account. You need to first import them to the

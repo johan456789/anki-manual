@@ -18,11 +18,11 @@ are met.
   records contain extra fields, the extra content will not be imported.
 
 - Anki tries to guess which field separator (commas, tabs, etc.) your file uses. 
-  If it guesses wrongly, you can change it in the import options window and preview 
+  If it guesses wrongly, you can change it in the **import options window** and preview
   the results. Or you can add [file headers](#file-headers) to force a specific field separator.
 
 Fields in your text file can be mapped to any field in your notes,
-including the tags field. You can choose which field in the text file
+including the **tags field**. You can choose which field in the text file
 corresponds to which field in the note when you import.
 
 When you import a text file, you can choose what deck to put the cards
@@ -60,15 +60,14 @@ file for you, it will automatically take care of escaping double quotes.
     hello; this is<br>a two line answer
     two; this is a one line one
 
-You need to turn on the **Allow HTML in fields** in the import
-dialog for HTML newlines to work.
+You need to turn on the **"Allow HTML in fields"** in the **import dialog** for HTML newlines to work.
 
 Escaped multi-lines will not work correctly if you are using cloze
 deletions that span multiple lines. In this case, please use HTML
 newlines instead.
 
-You can also include tags in another field and select it as a tags field
-in the import dialog:
+You can also include tags in another field and select it as a **tags field**
+in the **import dialog**:
 
     first field;second field;tags
 
@@ -89,7 +88,7 @@ to keep using Excel, please see [this doc](https://docs.google.com/document/d/12
 for more information.
 
 To save your spreadsheet to a file Anki can read with LibreOffice, go to
-**File &gt; Save As**, and then select CSV for the type of file. After
+**File** > **Save As**, and then select CSV for the type of file. After
 accepting the default options, LibreOffice will save the file and you
 can then import the saved file into Anki.
 
@@ -98,8 +97,7 @@ can then import the saved file into Anki.
 Anki can treat text imported from text files as HTML (the language used
 for web pages). This means that text with bold, italics and other
 formatting can be exported to a text file and imported again. If you
-want to include HTML formatting, you can check the "allow HTML in
-fields" checkbox when importing. You may wish to turn this off if you’re
+want to include HTML formatting, you can check the **"allow HTML in fields" checkbox** when importing. You may wish to turn this off if you’re
 trying to import cards whose content contains angle brackets or other
 HTML syntax.
 
@@ -131,10 +129,10 @@ Alternatively, you can use the [find and replace](../browsing.md) feature
 in the browse screen to update all the fields at once. If each field
 contains text like "myaudio", and you wish to make it play a sound,
 you’d search for (.\*) and replace it with "\[sound:\\1.mp3\]", with the
-**regular expressions** option enabled.
+**"regular expressions" option** enabled.
 
 When importing a text file with these references, you must make sure to
-enable the "Allow HTML" option.
+enable the **"Allow HTML" option**.
 
 You might be tempted to do this in a template, like:
 
@@ -162,20 +160,20 @@ note is unique. By default, if the file you are importing has a first
 field that matches one of the existing notes in your collection and that
 existing note is the same type as the type you’re importing, the
 existing note’s other fields will be updated based on content of the
-imported file. A drop-down box in the import screen allows you to change
+imported file. A **drop-down box** in the **import screen** allows you to change
 this behaviour, to either ignore duplicates completely, or import them
 as new notes instead of updating existing ones.
 
-The **match scope** setting controls how duplicates are identified. When
-**note type** is selected, Anki will identify a duplicate if another note
-with the same note type has the same first field. When set to **note type and deck**,
+The **"match scope" setting** controls how duplicates are identified. When
+**"note type"** is selected, Anki will identify a duplicate if another note
+with the same note type has the same first field. When set to **"note type and deck"**,
 a duplicate will only be flagged if the existing note also happens to be
 in the deck you are importing into.
 
 If you have updating turned on and older versions of the notes you’re
 importing are already in your collection, they will be updated in place
 (in their current decks) rather than being moved to the deck you have
-set in the import dialog. If notes are updated in place, the existing
+set in the **import dialog**. If notes are updated in place, the existing
 scheduling information on all their cards will be preserved.
 
 For info on how duplicates are handled in .apkg files, please see the

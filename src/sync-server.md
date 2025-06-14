@@ -134,7 +134,7 @@ that the server binds to.
 
 You'll need to determine your computer's network IP address, and then
 point each of your Anki clients to the address, e.g something like
-`http://192.168.1.200:8080/`. The URL can be configured in the preferences.
+`http://192.168.1.200:8080/`. The URL can be configured in the **preferences screen**.
 
 If you're using AnkiMobile and are unable to connect to a server on your local
 network, please go into the iOS settings, locate Anki near the bottom, and

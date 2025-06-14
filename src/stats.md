@@ -4,7 +4,7 @@
 
 ## Card Info
 
-You can display information about a card by using the Cards&gt;Info menu item,
+You can display information about a card by using the **Cards** > **Info menu item**,
 by right-clicking on the card and then selecting **Info**, or by pressing
 <kbd>I</kbd> on the study screen.
 
@@ -29,7 +29,7 @@ card with the "Good" button.
 
 The bottom section shows the review history for the card. Rating denotes
 the button (1 = Again, 4 = Easy). When cards are manually rescheduled using
-the "reset" or "set due date" actions, the type will be listed as Manual
+the **"reset"** or **"set due date" actions**, the type will be listed as Manual
 and the rating as 0.
 
 ## Statistics
@@ -45,12 +45,12 @@ top of the main window, or by pressing <kbd>T</kbd>.
 
 By default, the statistics window will show statistics from the currently selected deck and any
 subdecks it may contain, but you can select any deck from your collection by typing its name in the
-text box at the top of the screen or (from Anki 2.1.61), by using the deck selector at the bottom.
+**text box** at the top of the **screen** or (from Anki 2.1.61), by using the **deck selector** at the bottom.
 
 ### Collection
 
-If you select this checkbox, statistics will be shown for your entire collection. You can also display graphs
-for arbitrary searches by adding filters in the search box at the top (2.1.28+).
+If you select this **checkbox**, statistics will be shown for your entire collection. You can also display graphs
+for arbitrary searches by adding filters in the **search box** at the top (2.1.28+).
 
 ### History
 
@@ -60,7 +60,7 @@ You can change this to all history scope or deck life scope at the top. (The
 
 ### More
 
-- Clicking on "Save PDF" at the bottom will save a PDF document of the statistics to a file
+- Clicking on **"Save PDF"** at the bottom will save a PDF document of the statistics to a file
   on your desktop to make it easy to share your statistics with others.
 
 - When you delete notes, their review history is maintained in Anki. It

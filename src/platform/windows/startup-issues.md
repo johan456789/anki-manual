@@ -25,7 +25,7 @@ When starting Anki, you may receive a message like the following:
 These errors are usually because your computer is missing a Windows update
 or Windows library.
 
-Please open Windows update, and ensure your system has all updates installed.
+Please open **Windows update**, and ensure your system has all updates installed.
 If any needed to be installed, please restart your device after installing.
 
 ## Windows 7/8
@@ -55,7 +55,7 @@ to see if it helps.
 ## Admin access
 
 Some users have reported that Anki did not run for them until they right-clicked
-on the Anki icon and chose "Run as administrator". Anki stores all of its data in
+on the **Anki icon** and chose **"Run as administrator"**. Anki stores all of its data in
 your user folder, and should not need administrator privileges, but it's something
 you can try if you've exhausted other options.
 
@@ -65,14 +65,14 @@ If the update process leaves you with multiple Anki installs (such as within
 `C:\Program Files\Anki` and `C:\Program Files (x86)\Anki`), they may be left in a
 non-working state, and Anki may refuse to start without showing an error message.
 
-Try uninstalling all copies of Anki from your computer. To do this, find them in Windows Settings > Apps & features (or Apps > Installed apps) and uninstall, or run `uninstall.exe` in each Anki program
+Try uninstalling all copies of Anki from your computer. To do this, find them in **Windows Settings** > **Apps & features** (or **Apps** > **Installed apps**) and uninstall, or run `uninstall.exe` in each Anki program
 folder. Afterward, install Anki again.
 
 ## Debugging
 
 Starting Anki from a terminal may reveal a bit more information about some
 errors. After installing the latest Anki version and ensuring all Windows
-updates are installed, instead of running Anki directly, press the <kbd>Windows</kbd> key (or open the Start menu), type `cmd`, and launch Command Prompt. When the terminal window opens, paste the following command, and press <kbd>Enter</kbd>. (The path will be different if Anki is installed in a location that is not the default.)
+updates are installed, instead of running Anki directly, press the <kbd>Windows</kbd> key (or open the **Start menu**), type `cmd`, and launch **Command Prompt**. When the **terminal window** opens, paste the following command, and press <kbd>Enter</kbd>. (The path will be different if Anki is installed in a location that is not the default.)
 
 ```
 %LocalAppData%\Programs\Anki\anki-console.bat

@@ -5,23 +5,22 @@
 ## Adding Cards and Notes
 
 Recall from the [basics](getting-started.md) that in Anki we add notes rather than
-cards, and Anki creates cards for us. Click **Add** in the [main window](studying.md#decks),
-and the Add Notes window will appear.
+cards, and Anki creates cards for us. Click **Add** in the **[main window](studying.md#decks)**,
+and the **Add Notes window** will appear.
 
 ![Add Screen](media/add_screen.png)
 
-The top left of the window shows us the current [note type](getting-started.md#note-types). If it does
+The top left of the **window** shows us the current **[note type](getting-started.md#note-types)**. If it does
 not say "Basic," then you may have added some note types when you
 downloaded a shared deck. The text below assumes that "Basic" is
 selected.
 
-The top right of the window shows us the [deck](getting-started.md#decks) cards will be added to. If
-you would like to add cards to a new deck, you can click on the deck name
-button and then click **Add**.
+The top right of the **window** shows us the **[deck](getting-started.md#decks)** cards will be added to. If
+you would like to add cards to a new deck, you can click on the **deck name button** and then click **Add**.
 
-Below the note type, you'll see some buttons, and an area labelled
-"Front" and "Back". Front and Back are called [fields](getting-started.md#notes--fields), and you can add,
-remove, and rename them by clicking the "Fields…​" button above.
+Below the **note type**, you'll see some **buttons**, and an area labelled
+"Front" and "Back". Front and Back are called **[fields](getting-started.md#notes--fields)**, and you can add,
+remove, and rename them by clicking the **"Fields…​" button** above.
 
 Below the fields is another area labelled "**tags**". Tags are labels that
 you can attach to your notes, to make organizing and finding notes
@@ -33,26 +32,26 @@ them. Tags are separated by a space. If the tags area says
 …​then the note you add would have two tags.
 
 When you have entered text into the front and back, you can click the
-"Add" button or press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> (<kbd>Command</kbd>+<kbd>Enter</kbd> on a Mac) to add the
+**"Add" button** or press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> (<kbd>Command</kbd>+<kbd>Enter</kbd> on a Mac) to add the
 note to your collection. When you do so, a card will be created as well,
 and placed into the deck you chose. If you would like to edit a card you
-added, you can click the history button to search for a recently added
-card in the [browser](browsing.md).
+added, you can click the **history button** to search for a recently added
+card in the **[browser](browsing.md)**.
 
-For more information on the buttons between the note type and the
-fields, please see the [editor](editing.md) section.
+For more information on the **buttons** between the **note type** and the
+**fields**, please see the **[editor](editing.md)** section.
 
 ### Duplicate Check
 
 Anki checks the first field for uniqueness, so it will warn you if you
 enter two cards with a Front field of "apple" (for example). The
-uniqueness check is limited to the current note type, so if you're
+uniqueness check is limited to the current **note type**, so if you're
 studying multiple languages, two cards with the same Front would not be
-listed as duplicates as long as you had a different note type for each
+listed as duplicates as long as you had a different **note type** for each
 language.
 
 Anki does not check for duplicates in other fields automatically for
-efficiency reasons, but the browser has a "Find Duplicates" function,
+efficiency reasons, but the **browser** has a **"Find Duplicates" function**,
 which you can run periodically.
 
 ### Effective Learning
@@ -92,33 +91,31 @@ back, except by laboriously copying and pasting it for every note. By
 keeping content in separate fields, you make it much easier to adjust
 the layout of your cards in the future.
 
-To create a new type of note, choose Tools → Manage Note Types from the
-main Anki window. Then click "Add" to add a new type of note. You will now
-see another screen that gives you a choice of note types to base the new
-type on. "Add" means to base the newly created type on one that comes
-with Anki. "Clone" means to base the newly created type on one that is
+To create a new type of note, choose **Tools** → **Manage Note Types** from the
+main Anki **window**. Then click **"Add"** to add a new type of note. You will now
+see another **screen** that gives you a choice of **note types** to base the new
+type on. **"Add"** means to base the newly created type on one that comes
+with Anki. **"Clone"** means to base the newly created type on one that is
 already in your collection. For instance, if you'd created a French
 vocab type already, you might want to clone that when creating a German
 vocab type.
 
-After choosing OK, you will be asked to name the new type. The subject
+After choosing **OK**, you will be asked to name the new type. The subject
 material that you are studying is a good choice here – things like "Japanese",
-"Trivia", and so on. Once you have chosen a name, close the Note Types
-window, and you will return to the adding window.
+"Trivia", and so on. Once you have chosen a name, close the **Note Types window**, and you will return to the **adding window**.
 
 ## Customizing Fields
 
-To customize fields, click the "Fields…​" button when adding or editing
-a note, or while the note type is selected in the Manage Note Types
-window.
+To customize fields, click the **"Fields…​" button** when adding or editing
+a note, or while the **note type** is selected in the **Manage Note Types window**.
 
 ![Fields](media/fields.png)
 
-You can add, remove, or rename fields by clicking the appropriate
-buttons.
+You can **Add**, **Remove**, or **Rename** fields by clicking the appropriate
+**buttons**.
 
-To change the order in which the fields appear in this dialog
-and the add notes dialog, you can use the reposition button, which asks
+To change the order in which the fields appear in this **dialog**
+and the **add notes dialog**, you can use the **reposition button**, which asks
 for the numerical position you want the field to have. So if you want to
 change a field to be the new first field, enter "1".
 
@@ -171,10 +168,10 @@ or back of your cards. For more information on that, please see the
 
 ## Changing Deck / Note Type
 
-While adding, you can click on the top left button to change note type,
-and the top right button to change deck. The window that opens up will
-not only allow you to select a deck or note type, but also to add new
-decks or manage your note types.
+While adding, you can click on the **top left button** to change **note type**,
+and the **top right button** to change **deck**. The **window** that opens up will
+not only allow you to select a **deck** or **note type**, but also to add new
+decks or manage your **note types**.
 
 ## Organizing Content
 
@@ -222,7 +219,7 @@ cards to your main language study deck, and tag the cards with "food" and
 [search](searching.md#tags-decks-cards-and-notes) for all verbs, or all
 food-related vocabulary, or all verbs that are related to food.
 
-You can add tags from the Edit window and from the [Browser](browsing.md), and you can also add,
+You can add tags from the **Edit window** and from the **[Browser](browsing.md)**, and you can also add,
 delete, rename, or organize tags there. Please note that
 tags work at [note](getting-started.md#notes--fields) level, which means that when you tag a card that has siblings,
 all the siblings will be tagged as well. If you need to tag a single card,
@@ -230,24 +227,22 @@ but not its siblings, you should consider using flags instead.
 
 ### Using Flags
 
-Flags are similar to tags, but they will appear during study in the review
-window, showing a colored flag icon on the upper right area of the screen.
-You can also search for flagged cards in the Browse screen, rename flags
-from the browser and create filtered decks from flagged cards, but unlike tags,
+Flags are similar to tags, but they will appear during study in the **review window**, showing a colored flag icon on the upper right area of the screen.
+You can also search for flagged cards in the **Browse screen**, rename flags
+from the **browser** and create filtered decks from flagged cards, but unlike tags,
 a single card can have only one flag at a time. Another important difference
 is that flags work at [card](getting-started.md#cards) level, so flagging a card that has siblings
 won't have any effect on the card's siblings.
 
 You can flag / unflag cards directly while in review mode (by pressing
 <kbd>CTRL</kbd> + <kbd>1-7</kbd> on Windows or <kbd>CMD</kbd> + <kbd>1-7</kbd> on Mac)
-and from the [Browser.](browsing.md)
+and from the **[Browser.](browsing.md)**
 
 ### The "Marked" Tag
 
-Anki treats a tag called "marked" specially. There are options in the review
-screen and browse screen to add and remove the "marked" tag. The study screen
+Anki treats a tag called "marked" specially. There are options in the **review screen** and **browse screen** to add and remove the "marked" tag. The **study screen**
 will show a star when the current card's note has that tag. And cards are
-shown in a different color in the browse screen when their note is marked.
+shown in a different color in the **browse screen** when their note is marked.
 
 Note: Marking is mainly left around for compatibility with older Anki
 versions; most users will want to use [flags](editing.md#using-flags) instead.
@@ -279,51 +274,51 @@ The editor is shown when [adding notes](editing.md), [editing a note](studying.m
 
 ![Editor icons](media/editor_icons.png)
 
-On the top left are two buttons, which open the [fields](editing.md#customizing-fields) and
-[cards](templates/intro.md) windows.
+On the top left are two **buttons**, which open the **[fields](editing.md#customizing-fields)** and
+**[cards](templates/intro.md) windows**.
 
-On the right are buttons that control formatting. Bold, italic and
-underline work like they do in a word processing program. The next two
-buttons allow you to subscript or superscript text, which is useful for
+On the right are **buttons** that control formatting. **Bold**, **italic** and
+**underline** work like they do in a word processing program. The next two
+**buttons** allow you to **subscript** or **superscript** text, which is useful for
 chemical compounds like H<sub>2</sub>O or simple mathematical equations like
-x<sup>2</sup>. Then, there are two buttons to allow you to change text colour.
+x<sup>2</sup>. Then, there are two **buttons** to allow you to change **text colour**.
 
-The rubber eraser button clears any formatting in the currently selected text — including the colour
-of the text, whether the selected text is bold, etc. The next three buttons allow creating lists, text alignment and text indent.
+The **rubber eraser button** clears any formatting in the currently selected text — including the colour
+of the text, whether the selected text is bold, etc. The next three **buttons** allow creating **lists**, **text alignment** and **text indent**.
 
-You can use the paper-clip button to select audio, images, and videos from
+You can use the **paper-clip button** to select audio, images, and videos from
 your computer's hard drive and attach them to your notes. Alternatively, you
 can copy the media onto your computer's clipboard (for instance, by
 right-clicking an image on the web and choosing "Copy Image") and paste
 it into the field that you want to place it in. For more information
 about media, please see the [media](media.md) section.
 
-The microphone icon allows you to record from your computer's microphone
+The **microphone icon** allows you to record from your computer's microphone
 and attach the recording to the note.
 
-The Fx button shows shortcuts to add MathJax or
+The **Fx button** shows shortcuts to add MathJax or
 [LaTeX](math.md) to your notes.
 
-The \[…​\] buttons are visible when a cloze note type is selected.
+The **\[…​\] buttons** are visible when a cloze note type is selected.
 ![Cloze icons](media/cloze_icons.png)
 
-The `</>` button allows editing the underlying HTML of a field.
+The **`</>` button** allows editing the underlying HTML of a field.
 ![HTML icon](media/html_icon.png)
 
-Anki 2.1.45+ supports adjusting sticky fields directly from the editing screen.
-If you click on the pin icon on the right of a field, Anki will not clear out
+Anki 2.1.45+ supports adjusting sticky fields directly from the **editing screen**.
+If you click on the **pin icon** on the right of a field, Anki will not clear out
 the field's content after a note is added. If you find yourself entering the
 same content into multiple notes, you may find this useful. On previous Anki
-versions, sticky fields were toggled from the Fields screen.
+versions, sticky fields were toggled from the **Fields screen**.
 
 ![Pin icon](media/Pin_icon.png)
 
-Most of the buttons have shortcut keys. You can hover the mouse cursor
-over a button to see its shortcut.
+Most of the **buttons** have shortcut keys. You can hover the mouse cursor
+over a **button** to see its shortcut.
 
 When pasting text, Anki will keep most formatting by default. If you
 hold down the <kbd>Shift</kbd> key while pasting, Anki will strip most of the
-formatting. Under Preferences, you can toggle "Paste without shift
+formatting. Under **Preferences**, you can toggle "Paste without shift
 key strips formatting" to modify the default behaviour.
 
 ## Cloze Deletion
@@ -345,16 +340,15 @@ For more information on why you might want to use cloze deletion, see
 Rule 5 [here](https://super-memory.com/articles/20rules.htm).
 
 Anki provides a special cloze deletion type of note, to make creating
-clozes easy. To create a cloze deletion note, select the Cloze note
-type, and type some text into the "Text" field. Then drag the mouse over
-the text you want to hide to select it, and click the \[…​\] button.
+clozes easy. To create a cloze deletion note, select the **Cloze note type**, and type some text into the **"Text" field**. Then drag the mouse over
+the text you want to hide to select it, and click the **\[…​\] button**.
 Anki will replace the text with:
 
     Canberra was founded in {{c1::1913}}.
 
 The "c1" part means that you have created one cloze deletion on the
 sentence. You can create more than one deletion if you'd like. For
-example, if you select Canberra and click \[…​\] again, the text will
+example, if you select Canberra and click **\[…​\]** again, the text will
 now look like:
 
     {{c2::Canberra}} was founded in {{c1::1913}}.
@@ -384,7 +378,7 @@ replace the original sentence with:
 
     Canberra::city was founded in 1913
 
-…​and then press \[…​\] after selecting "Canberra::city", Anki will
+…​and then press **\[…​\]** after selecting "Canberra::city", Anki will
 treat the text after the two colons as a hint, changing the text into:
 
     {{c1::Canberra::city}} was founded in 1913
@@ -420,15 +414,15 @@ creating notes, paste the text into two separate fields, like so:
 
     Text2 field: {{c2::Canberra}} was founded in 1913
 
-The default cloze note type has a second field called Extra, that is
+The default **cloze note type** has a second field called **Extra**, that is
 shown on the answer side of each card. It can be used for adding some
 usage notes or extra information.
 
-The cloze note type is treated specially by Anki, and cannot be created
+The **cloze note type** is treated specially by Anki, and cannot be created
 based on a regular note type. If you wish to customize it, please make
-sure to clone the existing Cloze type instead of another type of note.
+sure to clone the existing **Cloze type** instead of another type of note.
 Things like formatting can be customized, but it is not possible to add
-extra card templates to the cloze note type.
+extra card templates to the **cloze note type**.
 
 ## Image Occlusion
 
@@ -441,21 +435,21 @@ of an image, testing your knowledge of that hidden information.
 
 ### Adding an image
 
-To add IO cards to your collection, open the Add screen, click on "Type"
-and choose "Image Occlusion" from the list of built-in note types.
-Then, click on "Select Image" to load an image file saved on your
-computer's hard drive, or on "Paste image from clipboard"
+To add IO cards to your collection, open the **Add screen**, click on **"Type"**
+and choose **"Image Occlusion"** from the list of built-in note types.
+Then, click on **"Select Image"** to load an image file saved on your
+computer's hard drive, or on **"Paste image from clipboard"**
 if you have an image copied to the clipboard.
 
 ### Adding IO cards
 
-After loading an image, the IO editor will open. Click on the
-icons on the left to add as many areas to your image as you want.
+After loading an image, the **IO editor** will open. Click on the
+**icons** on the left to add as many areas to your image as you want.
 There are three basic shapes to choose from:
 
-- Rectangle
-- Ellipse
-- Polygon
+- **Rectangle**
+- **Ellipse**
+- **Polygon**
 
 You can also choose between two different IO modes for each note:
 
@@ -474,20 +468,20 @@ and **Comments** (not displayed on the cards). To access those from the IO edito
 click the **Toggle Mask Editor** button.
 There you can also view and edit the **Tags** of the note.
 
-Once you're done, click on the "Add" button, at the bottom of the screen.
+Once you're done, click on the **"Add" button**, at the bottom of the screen.
 Anki will add a card for each shape or group of shapes you added in the previous step,
 and you can start reviewing them normally.
 
 ## Editing IO notes
 
-You can edit your IO notes by clicking on "Edit" while reviewing,
-or directly from the browser. There are several tools that you
+You can edit your IO notes by clicking on **"Edit"** while reviewing,
+or directly from the **browser**. There are several tools that you
 can use. Of note:
 
 - Select: It allows you selecting one or more shapes to move,
   resize, delete or group them.
 - Zoom: You can freely move the image and zoom in or out using the mouse wheel.
-- Shapes (Rectangle, Ellipse or Polygon): Use them to add new shapes / cards.
+- Shapes (**Rectangle**, **Ellipse** or **Polygon**): Use them to add new shapes / cards.
 - Text: It adds text areas to your image. These text areas can be moved,
   resized or deleted, but no card will be created when you use this tool.
 - Undo / Redo.
@@ -501,10 +495,10 @@ can use. Of note:
 - Group selection: Use this tool to create a cluster of shapes, which will
   allow you to move, resize or delete them simultaneously. Please note that
   two or more single shapes will create only one card once grouped.
-- Ungroup selection: Select a group and then click this button to make each shape independent again.
+- Ungroup selection: Select a group and then click this **button** to make each shape independent again.
 - Alignment: This tool can be used to align your shapes / text areas as desired.
 
-While reviewing IO Cards a "Toggle Masks" button will appear just below the image.
+While reviewing IO Cards a **"Toggle Masks" button** will appear just below the image.
 This button will temporary clear all shapes of the note when using "Hide All, Guess One" mode.
 
 ## Inputting Non-Latin Characters and Accents
@@ -573,7 +567,7 @@ to a standard form. For most users this process is transparent, but if you
 are studying certain material like archaic Japanese symbols, the normalization
 process can end up converting them to a more modern equivalent.
 
-If you want character variants preserved, the following in the [debug console](./misc.md)
+If you want character variants preserved, the following in the **[debug console](./misc.md)**
 will turn off normalization:
 
 ```python

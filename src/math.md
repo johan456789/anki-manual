@@ -20,8 +20,7 @@ To try it out:
 
 2. Select the text you just typed.
 
-3. Click the rightmost button in the editor, and choose "MathJax
-   inline" from the menu. Anki will change the text so it reads:
+3. Click the **rightmost button** in the **editor**, and choose **"MathJax inline"** from the **menu**. Anki will change the text so it reads:
 
        \(\sqrt{x}\)
 
@@ -83,7 +82,7 @@ LaTeX code can contain malicious commands that can read or write non-Anki
 data on your computer. For this reason, recent Anki versions will refuse to
 generate LaTeX images by default.
 
-If you wish to use LaTeX on your own cards, you will need to enable the **Generate LaTeX images** option in the preferences screen.
+If you wish to use LaTeX on your own cards, you will need to enable the **"Generate LaTeX images" option** in the **preferences screen**.
 
 **We strongly recommend you do not enable this option if you use shared decks, or think
 you will import shared decks in the future, as you are potentially giving any shared
@@ -104,9 +103,8 @@ LaTeX forum.
 To install LaTeX, on Windows use MiKTeX; on macOS use MacTeX, and on Linux
 use your distro’s package manager. Dvipng must also be installed.
 
-On Windows, go to Settings in MikTeX’s maintenance window, and make sure
-"Install missing packages on the fly" is set to "Always", not to "Ask me
-first". If you continue to have difficulties, one user reported that
+On Windows, go to **Settings** in MikTeX’s **maintenance window**, and make sure
+**"Install missing packages on the fly"** is set to **"Always"**, not to **"Ask me first"**. If you continue to have difficulties, one user reported that
 running Anki as an administrator until all the packages were fetched
 helped.
 
@@ -132,15 +130,15 @@ already exist, but can not generate the images on their own.
 
 To avoid having to review all your cards at least once before you can
 study on the other clients, Anki can generate the images in bulk for
-you. To generate all the images, please go to Tools&gt;Check Media.
+you. To generate all the images, please go to **Tools** > **Check Media**.
 After that, syncing should upload the generated media to AnkiWeb and the
 other clients.
 
 ### Example
 
 The most general way to input LaTeX content is to surround it with
-\[latex\]\[/latex\] tags. There’s a shortcut button for this documented
-in the [editor](editing.md) section.
+\[latex\]\[/latex\] tags. There’s a **shortcut button** for this documented
+in the **[editor](editing.md) section**.
 
 \[latex\] tags must be used inside a field - placing them in the card
 template will [cause problems](templates/fields.md).
@@ -223,9 +221,9 @@ want to put code like the above into a .latex file and test if you can
 compile it from the command line. Once you’ve confirmed that the package
 is available and working, we can integrate it with Anki.
 
-To use the package with Anki, click "Add" in the main window, then click
-the note type selection button. Click the "Manage" button, then select
-the note type you plan to use and click "Options". The LaTeX header and
+To use the package with Anki, click **"Add"** in the **main window**, then click
+the **note type selection button**. Click the **"Manage" button**, then select
+the note type you plan to use and click **"Options"**. The LaTeX header and
 footer are shown. The header will look something like:
 
     \documentclass[12pt]{article}
@@ -294,7 +292,7 @@ will (and LaTeX ignores spaces in math mode, so your equation will
 render the same). If you want to avoid adding the extra space into the
 rendered text (for example, when you are making Cloze cards for learning
 programming languages), another option is to use a HTML comment when
-editing the card in HTML mode:
+editing the card in **HTML mode**:
 
     {{c1::[$]\frac{foo}{\frac{bar}{baz}<!-- -->}[/$] blah blah blah.}}
 
