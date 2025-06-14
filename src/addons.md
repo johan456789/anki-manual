@@ -4,7 +4,7 @@ Anki's capabilities can be extended with add-ons. Add-ons can provide
 features like extra support for specific languages, extra control over
 scheduling, and so on.
 
-To browse the list of available add-ons, select **Tools** → **Add-ons**, then click on **Get Add-ons**.
+To browse the list of available add-ons, go to **Tools > Add-ons**, then click on **Get Add-ons**.
 Alternatively, open [ankiweb.net/shared/addons](https://ankiweb.net/shared/addons) in a web browser.
 
 If you have downloaded an add-on that is not working properly, or if you
