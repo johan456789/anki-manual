@@ -17,8 +17,8 @@ protect you if your device breaks or is stolen. We recommend you combine them wi
 
 To restore from an automatic backup:
 
-- Open Anki, and choose **Switch Profile** from the **File menu**.
-- Click on the **"Open Backup" button**.
+- Open Anki, and choose **Switch Profile** from the **File** menu.
+- Click on the **Open Backup** button.
 - Select the backup you wish to restore from.
 
 ```admonish warning
@@ -31,7 +31,7 @@ happy that you've restored the correct backup, close and re-open Anki to return 
 ### Creating
 
 Backups are created periodically. You can configure the time between backups
-in the **[preferences](preferences.md) screen**. The default is 30 minutes.
+in the [**Preferences**](preferences.md) screen. The default is 30 minutes.
 
 Certain operations will trigger a backup, even if the configured time has not
 elapsed yet:
@@ -58,9 +58,9 @@ functions like regular automatic backups, and does not include media files.
 
 To create a backup that includes your sounds and images:
 
-- Select **Export** from the **File menu**.
-- Ensure **"Anki collection package (.colpkg)"** is selected.
-- Enable the **"include media" option**.
+- Select **Export** from the **File** menu.
+- Ensure "Anki collection package (.colpkg)" is selected.
+- Enable the "Include media" option.
 
 This will create a .colpkg file that contains all of your cards and any sounds/images they
 use. We recommend you store the file somewhere safe, like a different device, or a cloud-based
@@ -70,8 +70,8 @@ file storage service like Dropbox or Google Drive.
 
 [Synchronising](./syncing.md) your collection with AnkiWeb provides some level of protection
 against your device being lost or stolen. If you need to restore your collection from AnkiWeb,
-you can force a one-way sync in the **preferences screen**, or sync from a new device, and then choose
-**"Download"**.
+you can force a one-way sync in the **Preferences** screen, or sync from a new device, and then choose
+**Download**.
 
 ## Deletion log
 
