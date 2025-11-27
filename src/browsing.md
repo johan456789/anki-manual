@@ -38,11 +38,11 @@ You can switch tools using the toolbar at the top of the sidebar or the shortcut
 With this tool, the sidebar behaves as in previous versions: Clicking on an item
 will search for it.
 
-You can hold down <kbd>Ctrl</kbd> (<kbd>Command</kbd> on Mac) while clicking in
-order to append the clicked item to the current search with an AND condition,
-instead of starting a new search. If you wanted to show _learning_ cards that were
-also in the German deck for instance, you could click on "Learning",
-then <kbd>Ctrl</kbd>-click on "German".
+You can <kbd>Ctrl</kbd>-click (<kbd>Command</kbd>-click on Mac) in order to append the
+clicked item to the current search with an AND condition, instead of starting a
+new search. If you wanted to show _learning_ cards that were also in the German
+deck for instance, you could click on "Learning", then <kbd>Ctrl</kbd>-click on
+"German".
 
 You can hold down <kbd>Shift</kbd> to create an OR search instead of an AND. For
 example, you could click one deck, then <kbd>Shift</kbd>-click another to show
@@ -51,16 +51,16 @@ cards from either of the decks in the same view.
 You can hold down <kbd>Alt</kbd> (<kbd>Option</kbd> on Mac) in order to reverse the
 search (prepend a `-`): for example, to show all cards in a current deck that
 do _not_ have a certain tag. <kbd>Alt</kbd>/<kbd>Option</kbd> can be combined with
-either <kbd>Ctrl</kbd> or <kbd>Shift</kbd> (e.g. clicking with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>
-will result in adding a new search term that is negated).
+either <kbd>Ctrl</kbd> or <kbd>Shift</kbd> (e.g. <kbd>Ctrl</kbd>+<kbd>Alt</kbd>-clicking will
+result in adding a new search term that is negated).
 
 On Anki 2.1.39+, you can also hold down both <kbd>Ctrl</kbd> and
 <kbd>Shift</kbd> together when clicking a search term to replace all occurrences of the
 same kind of search with the new one.
 Let's say you had previously typed in a complicated search expression like
 `deck:Swahili (is:due or tag:important)`
-and now want to perform the same search for your Urdu deck. You can hold down
-<kbd>Ctrl</kbd>+<kbd>Shift</kbd> while clicking the Urdu deck in the sidebar to obtain the
+and now want to perform the same search for your Urdu deck. You can
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>-click the Urdu deck in the sidebar to obtain the
 following search expression:
 `deck:Urdu (is:due or tag:important)`.
 
